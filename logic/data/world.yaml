@@ -1637,7 +1637,7 @@
 - Name: Horseshoe Island Past Tentacles
   Island: Horseshoe Island
   Locations:
-      Horseshoe Island - Play Golf: Hookshot or Can_Fly_With_Deku_Leaf_Outdoors
+      Horseshoe Island - Play Golf: Hookshot or Can_Fly_With_Deku_Leaf_Outdoors or Grappling_Hook
       Horseshoe Island - Blue Chu Chu: Can_Get_Blue_Chu_Jelly_From_Blue_Chu_Chus # Can also use the nut (for obscure tricks later)
       Horseshoe Island - Old Man Ho Ho: Nothing
   Exits:
