@@ -1508,24 +1508,6 @@ TweakError set_pig_color(const PigColor& color) {
 }
 
 TweakError add_pirate_ship_to_windfall() {
-    RandoSession::CacheEntry& windfall = g_session.openGameFile("content/Common/Pack/szs_permanent1.pack@SARC@sea_Room11.szs@YAZ0@SARC@Room11.bfres@BFRES@room.dzr@DZX");
-    windfall.addAction([](RandoSession* session, FileType* data) -> int {
-        CAST_ENTRY_TO_FILETYPE(windfallDzr, FileTypes::DZXFile, data)
-
-        std::vector<ChunkEntry*> wf_layer_2_actors = windfallDzr.entries_by_type_and_layer("ACTR", 2);
-        std::string layer_2_ship_data; // copy actor data, add_entity reallocates vector and invalidates pointer
-        for (ChunkEntry* actor : wf_layer_2_actors) {
-            if (std::strncmp(&actor->data[0], "Pirates\x00", 8) == 0) layer_2_ship_data = actor->data;
-        }
-        if(layer_2_ship_data.empty()) LOG_ERR_AND_RETURN_BOOL(TweakError::MISSING_ENTITY);
-
-        ChunkEntry& default_layer_ship = windfallDzr.add_entity("ACTR");
-        default_layer_ship.data = layer_2_ship_data;
-        default_layer_ship.data[0xA] = '\x00';
-
-        return true;
-    });
-
     RandoSession::CacheEntry& shipRoom = g_session.openGameFile("content/Common/Stage/Asoko_Room0.szs@YAZ0@SARC@Room0.bfres@BFRES@room.dzr@DZX");
     shipRoom.addAction([](RandoSession* session, FileType* data) -> int {
         CAST_ENTRY_TO_FILETYPE(shipDzr, FileTypes::DZXFile, data)

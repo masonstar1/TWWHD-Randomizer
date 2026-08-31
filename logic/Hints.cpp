@@ -497,11 +497,14 @@ static HintError generateItemHintMessage(Location* location, std::list<Hint>& hi
     const std::u16string spanishItemImportance = location->generateImportanceText("Spanish");
     const std::u16string frenchItemImportance = location->generateImportanceText("French");
 
+    // Some image testing
+    const std::u16string imageTesting = IMAGE(ImageTags::SHARD_8);
+
     // Angular Isles and Forbidden Woods should use the plural conjugation of "détenir" in French even if they're a single area being referred to
     const std::u16string frenchConjugation = (totalRegions == 1 && englishRegionText.find(u"Angular Isles") == std::string::npos && englishRegionText.find(u"Forbidden Woods") == std::string::npos) ? u" détiendrait "s : u" détiendraient "s;
 
     Hint& hint = hints.emplace_back();
-    hint.text["English"] = HINT_PREFIX_ENGLISH + englishHintedItem + englishItemImportance + u" can be found at "s + englishRegionText + u"."s;
+    hint.text["English"] = HINT_PREFIX_ENGLISH + englishHintedItem + imageTesting + englishItemImportance + u" can be found at "s + englishRegionText + u"."s;
     hint.text["Spanish"] = HINT_PREFIX_SPANISH + spanishHintedItem + spanishItemImportance + u" se encuentra en "s + spanishRegionText + u"."s;
     hint.text["French"] = HINT_PREFIX_FRENCH + frenchRegionText + frenchConjugation + frenchHintedItem + frenchItemImportance + u"."s;
     hint.type = HintType::ITEM;

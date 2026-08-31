@@ -143,7 +143,8 @@ enum struct ImageTags : uint16_t {
     DPAD_RIGHT,
     PAGE_TURN, // not sure where this is used
     SAIL,
-    SWIFT_SAIL
+    SWIFT_SAIL,
+    SHARD_8
 };
 
 // Sounds don't have unique names, no enum needed
