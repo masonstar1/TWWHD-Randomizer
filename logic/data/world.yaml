@@ -121,7 +121,7 @@
       Forsaken Fortress Sector - Sunken Treasure: Chart_For_Island_1 and Can_Salvage_Sunken_Treasure
       Forsaken Fortress Sector - Old Man Ho Ho: Nothing
   Exits:
-      Forsaken Fortress Inner Courtyard: Bombs
+      Forsaken Fortress Inner Courtyard: Can_Get_Chest_Storage or Can_Itemslide
       The Great Sea: Nothing
 
 - Name: Forsaken Fortress Inner Courtyard
@@ -131,7 +131,7 @@
       Forsaken Fortress - Phantom Ganon: Can_Defeat_Phantom_Ganon
   Exits:
       Forsaken Fortress Barrel Storage Room Lower: Can_Defeat_Phantom_Ganon
-      Forsaken Fortress Sleeping Quarters Outside Ledge: Can_Fly_With_Deku_Leaf_Outdoors
+      Forsaken Fortress Sleeping Quarters Outside Ledge: Can_Get_Chest_Storage
       Forsaken Fortress Up Switch Back Stairs: Skull_Hammer
       Forsaken Fortress Sector: Bombs or Can_Play_BoG
 
@@ -139,7 +139,7 @@
   Dungeon: Forsaken Fortress
   Exits:
       Forsaken Fortress Inner Courtyard: Nothing
-      Forsaken Fortress Sleeping Quarters: Can_Get_Chest_Storage
+      Forsaken Fortress Sleeping Quarters: Nothing
 
 - Name: Forsaken Fortress Sleeping Quarters
   Dungeon: Forsaken Fortress
