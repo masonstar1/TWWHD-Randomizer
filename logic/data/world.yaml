@@ -139,7 +139,7 @@
   Dungeon: Forsaken Fortress
   Exits:
       Forsaken Fortress Inner Courtyard: Nothing
-      Forsaken Fortress Sleeping Quarters: Can_Defeat_Phantom_Ganon
+      Forsaken Fortress Sleeping Quarters: Can_Get_Chest_Storage
 
 - Name: Forsaken Fortress Sleeping Quarters
   Dungeon: Forsaken Fortress
@@ -653,7 +653,7 @@
 - Name: Windfall Lenzo's House Upper Ledge
   Island: Windfall Island
   Exits:
-      Windfall Lenzo's House Upper: Picto_Box and 'Can_Start_Lenzo_Quest'
+      Windfall Lenzo's House Upper: Can_Itemslide
       Windfall Island: Nothing
 
 - Name: Windfall Cafe Bar
@@ -1637,7 +1637,7 @@
 - Name: Horseshoe Island Past Tentacles
   Island: Horseshoe Island
   Locations:
-      Horseshoe Island - Play Golf: Hookshot or Can_Fly_With_Deku_Leaf_Outdoors or Grappling_Hook
+      Horseshoe Island - Play Golf: Hookshot or Can_Fly_With_Deku_Leaf_Outdoors
       Horseshoe Island - Blue Chu Chu: Can_Get_Blue_Chu_Jelly_From_Blue_Chu_Chus # Can also use the nut (for obscure tricks later)
       Horseshoe Island - Old Man Ho Ho: Nothing
   Exits:
