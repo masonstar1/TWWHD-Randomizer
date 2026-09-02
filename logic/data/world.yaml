@@ -121,7 +121,7 @@
       Forsaken Fortress Sector - Sunken Treasure: Chart_For_Island_1 and Can_Salvage_Sunken_Treasure
       Forsaken Fortress Sector - Old Man Ho Ho: Nothing
   Exits:
-      Forsaken Fortress Inner Courtyard: Can_Get_Chest_Storage or Can_Itemslide
+      Forsaken Fortress Inner Courtyard: Bombs or Can_Itemslide or Can_Get_Chest_Storage # Bombs
       The Great Sea: Nothing
 
 - Name: Forsaken Fortress Inner Courtyard
@@ -131,15 +131,15 @@
       Forsaken Fortress - Phantom Ganon: Can_Defeat_Phantom_Ganon
   Exits:
       Forsaken Fortress Barrel Storage Room Lower: Can_Defeat_Phantom_Ganon
-      Forsaken Fortress Sleeping Quarters Outside Ledge: Can_Get_Chest_Storage
+      Forsaken Fortress Sleeping Quarters Outside Ledge: Can_Fly_With_Deku_Leaf_Outdoors or Can_Get_Chest_Storage # Can_Fly_With_Deku_Leaf_Outdoors
       Forsaken Fortress Up Switch Back Stairs: Skull_Hammer
-      Forsaken Fortress Sector: Bombs or Can_Play_BoG
+      Forsaken Fortress Sector: (Bombs or Can_Play_BoG) or Can_Itemslide # (Bombs or Can_Play_BoG)
 
 - Name: Forsaken Fortress Sleeping Quarters Outside Ledge
   Dungeon: Forsaken Fortress
   Exits:
       Forsaken Fortress Inner Courtyard: Nothing
-      Forsaken Fortress Sleeping Quarters: Nothing
+      Forsaken Fortress Sleeping Quarters: Can_Get_Chest_Storage # Can_Defeat_Phantom_Ganon
 
 - Name: Forsaken Fortress Sleeping Quarters
   Dungeon: Forsaken Fortress
@@ -428,7 +428,7 @@
       Gale Isle - Sunken Treasure: Chart_For_Island_4 and Can_Salvage_Sunken_Treasure
   Exits:
       The Great Sea: Nothing
-      Gale Isle Interior: Skull_Hammer and Iron_Boots
+      Gale Isle Interior: (Skull_Hammer and Iron_Boots) or Can_Itemslide # Skull_Hammer and Iron_Boots
 
 - Name: Gale Isle Interior
   Exits:
@@ -586,7 +586,7 @@
       Windfall Jail: Nothing
       Windfall School of Joy: Nothing
       Windfall Lenzo's House from Bottom Entry: Nothing
-      Windfall Lenzo's House Upper Ledge: Can_Fly_With_Deku_Leaf_Outdoors
+      Windfall Lenzo's House Upper Ledge: Can_Fly_With_Deku_Leaf_Outdoors or Can_Itemslide # Can_Fly_With_Deku_Leaf_Outdoors
       Windfall Cafe Bar: Nothing
       Windfall Battle Squid Interior: Nothing
       Windfall Battle Squid Upper Ledge: Can_Fly_With_Deku_Leaf_Outdoors # can fly from the area with the ferris wheel switch
@@ -595,7 +595,7 @@
       Windfall Potion Shop: Nothing
       Windfall Bomb Shop: Nothing
       Windfall Bomb Shop Upper Ledge: Nothing
-      Windfall Pirate Ship: Nothing
+      Windfall Pirate Ship: Can_Itemslide # Nothing
       Windfall Beedle Shop: Nothing
       Mailbox Checks: Nothing
       The Great Sea: Nothing
@@ -653,7 +653,7 @@
 - Name: Windfall Lenzo's House Upper Ledge
   Island: Windfall Island
   Exits:
-      Windfall Lenzo's House Upper: Can_Itemslide
+      Windfall Lenzo's House Upper: Can_Itemslide # Picto_Box and 'Can_Start_Lenzo_Quest'
       Windfall Island: Nothing
 
 - Name: Windfall Cafe Bar
@@ -747,7 +747,7 @@
 - Name: Pawprint Chu Chu Cave
   Locations:
       Pawprint Isle - Chu Chu Cave Chest: Nothing
-      Pawprint Isle - Chu Chu Cave Chest Behind Left Boulder: Can_Move_Boulders
+      Pawprint Isle - Chu Chu Cave Chest Behind Left Boulder: (Can_Itemslide and Can_Get_Chest_Storage) or Can_Move_Boulders # Can_Move_Boulders
       Pawprint Isle - Chu Chu Cave Chest Behind Right Boulder: Can_Move_Boulders
       Pawprint Isle - Chu Chu Cave Chest Scale Wall: Grappling_Hook
   Exits:
@@ -1143,7 +1143,7 @@
       Thorned Fairy Island - Blue Chu Chu: Can_Get_Blue_Chu_Jelly_From_Blue_Chu_Chus
       Thorned Fairy Island - Sunken Treasure: Chart_For_Island_28 and Can_Salvage_Sunken_Treasure
   Exits:
-      Thorned Fairy Island Past Tentacles: Skull_Hammer
+      Thorned Fairy Island Past Tentacles: Skull_Hammer or Can_Itemslide # Skull_Hammer
       Thorned Fairy Lookout Platforms: Can_Sail_Away
       Mailbox Checks: Nothing
       The Great Sea: Nothing
@@ -1288,7 +1288,7 @@
       Bomb Island - Sunken Treasure: Chart_For_Island_34 and Can_Salvage_Sunken_Treasure
       Bomb Island - Old Man Ho Ho: Nothing
   Exits:
-      Bomb Island Cave: Can_Move_Boulders
+      Bomb Island Cave: Can_Move_Boulders or (Can_Get_Chest_Storage and Hookshot) # Can_Move_Boulders
       Bomb Island Submarine Exterior: Can_Sail_Away
       Bomb Island Lookout Platform: Can_Sail_Away
       Mailbox Checks: Nothing
@@ -1353,7 +1353,7 @@
       Diamond Steppe Island - Big Octo: Can_Defeat_Big_Octos and Can_Salvage_Sunken_Treasure
       Diamond Steppe Island - Sunken Treasure: Chart_For_Island_36 and Can_Salvage_Sunken_Treasure
   Exits:
-      Diamond Steppe Upper Island: Hookshot
+      Diamond Steppe Upper Island: Hookshot or (Can_Sail_Away and Wind_Waker) # Hookshot
       The Great Sea: Nothing
 
 - Name: Diamond Steppe Upper Island
@@ -1481,6 +1481,7 @@
       Forest Haven Beedle Shop: Nothing
       Mailbox Checks: Nothing
       The Great Sea: Nothing
+      Forest Haven South Isle: Can_Itemslide # new exit
 
 - Name: Forest Haven Interior
   Events:
@@ -1501,7 +1502,7 @@
       Forest Haven - On Tree Branch: Nothing
   Exits:
       Forest Haven Interior North Ledge: Can_Fly_With_Deku_Leaf_Indoors
-      Forest Haven Interior West Upper Ledge: Can_Fly_With_Deku_Leaf_Indoors
+      Forest Haven Interior West Upper Ledge: Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
       Forest Haven Interior South Ledge: Can_Fly_With_Deku_Leaf_Indoors
       Forest Haven Interior: Nothing
 
@@ -1540,7 +1541,7 @@
 - Name: Forest Haven Exterior West Upper Ledge
   Island: Forest Haven
   Exits:
-      FW Entrance Platform: Can_Fly_With_Deku_Leaf_Outdoors and Can_Cut_Grass
+      FW Entrance Platform: (Can_Fly_With_Deku_Leaf_Outdoors and Can_Cut_Grass) or Can_Itemslide # Can_Fly_With_Deku_Leaf_Outdoors and Can_Cut_Grass
       Forest Haven Exterior West Lower Ledge: Nothing
       Forest Haven South Isle: Can_Fly_With_Deku_Leaf_Outdoors and Can_Cut_Grass
       Forest Haven Nintendo Gallery Isle: Can_Fly_With_Deku_Leaf_Outdoors and Can_Cut_Grass
@@ -1557,6 +1558,8 @@
   Island: Forest Haven
   Locations:
       Forest Haven - Chest on Small Island: Nothing
+  Exits: # new exit
+      Forest Haven Exterior South Ledge: Can_Itemslide
 
 - Name: FW Entrance Platform
   Island: Forest Haven
@@ -1602,7 +1605,7 @@
       Cliff Plateau Isles - Cave Chest: Can_Defeat_Boko_Babas
   Exits:
       Cliff Plateau Isles: Nothing
-      Cliff Plateau Cave Past Wooden Barrier: Can_Defeat_Boko_Babas and Can_Fly_With_Deku_Leaf_Indoors
+      Cliff Plateau Cave Past Wooden Barrier: (Can_Defeat_Boko_Babas and Can_Fly_With_Deku_Leaf_Indoors) or Can_Get_Chest_Storage or (Can_Destroy_Wooden_Barriers and Can_Itemslide) # Can_Defeat_Boko_Babas and Can_Fly_With_Deku_Leaf_Indoors
 
 - Name: Cliff Plateau Cave Past Wooden Barrier
   Exits:
@@ -1671,7 +1674,7 @@
       Outset Rose's House: Nothing
       Outset Rose's Attic: Nothing
       Outset Mesa's House: Can_Play_SoP
-      Outset Near Bridge: Can_Cut_Down_Outset_Trees
+      Outset Near Bridge: Can_Cut_Down_Outset_Trees or Can_Itemslide
       Outset Near Savage Headstone: Hookshot
       Outset Jabun's Cave: Bombs
       Outset Beedle Shop: Nothing
@@ -1737,7 +1740,7 @@
 - Name: Outset Forest of Fairies
   Exits:
       Outset Across Bridge: Nothing
-      Outset Island - Great Fairy Fountain: Can_Move_Boulders
+      Outset Island - Great Fairy Fountain: Can_Move_Boulders or Can_Fly_With_Deku_Leaf_Outdoors # Can_Move_Boulders
 
 - Name: Outset Island - Great Fairy Fountain
   Events:
@@ -1827,10 +1830,10 @@
 - Name: Headstone Island
   Island: Headstone Island
   Locations:
-      Headstone Island - Top of Island: Bait_Bag and 'Can_Buy_Hyoi_Pears'
+      Headstone Island - Top of Island: (Bait_Bag and 'Can_Buy_Hyoi_Pears') or (Can_Itemslide and Can_Get_Chest_Storage) # Bait_Bag and 'Can_Buy_Hyoi_Pears'
       Headstone Island - Sunken Treasure: Chart_For_Island_45 and Can_Salvage_Sunken_Treasure
   Exits:
-      Headstone Island Interior: Power_Bracelets
+      Headstone Island Interior: Power_Bracelets or Can_Itemslide # Power_Bracelets
       Headstone Island Submarine Exterior: Can_Sail_Away
       The Great Sea: Nothing
 
@@ -1971,6 +1974,7 @@
       DRC Hub Room Mouth Area: Can_Fly_With_Deku_Leaf_Indoors or Ice_Arrows or
           (can_access(DRC Hub Room Highest Platform) and Can_Cut_Down_Hanging_DRC_Platform)
       DRC First Room: Nothing
+      DRC Hub Room Highest Platform: Hookshot # new exit for DRC oddshot
 
 - Name: DRC Hub Room Lower Area Near Dim Room
   Dungeon: Dragon Roost Cavern
@@ -2044,7 +2048,7 @@
 - Name: DRC Dark Room Past Wooden Barrier
   Dungeon: Dragon Roost Cavern
   Exits:
-      DRC Dark Room Chest Area: Can_Destroy_Wooden_Barriers
+      DRC Dark Room Chest Area: Can_Destroy_Wooden_Barriers or (Can_Get_Chest_Storage and Hookshot)
       DRC Hub Room Upper Bridge: Fire_Arrows or can_access(DRC Dark Room Chest Area)
 
 - Name: DRC Hub Room Upper Bridge
@@ -2095,7 +2099,7 @@
       Dragon Roost Cavern - Boss Stairs Right Pot: Nothing
   Exits:
       DRC Boss Door Room Before Lava: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors or Ice_Arrows
-      Gohma Battle Arena: Dragon_Roost_Cavern_Big_Key
+      Gohma Battle Arena: (Dragon_Roost_Cavern_Big_Key) or Can_Get_Chest_Storage
 
 - Name: DRC Mini Boss Upper Area
   Dungeon: Dragon Roost Cavern
@@ -2643,7 +2647,7 @@
 - Name: ET Early Two Switches Room
   Dungeon: Earth Temple
   Exits:
-      ET Map Chest Room: Can_Play_CM
+      ET Map Chest Room: Can_Play_CM or Can_Itemslide # Can_Play_CM
       ET First Room: Nothing
 
 - Name: ET Map Chest Room
@@ -2651,7 +2655,7 @@
   Events:
       Can Open ET Green Pot: Nothing # can throw a skull at it
   Locations:
-      Earth Temple - Warp Pot Room Chest: Can_Play_CM or Mirror_Shield
+      Earth Temple - Warp Pot Room Chest: (Can_Play_CM or Mirror_Shield) or Wind_Waker # Can_Play_CM or Mirror_Shield
       Earth Temple - Warp Pot Room Behind Curtain: Fire_Arrows and (Hookshot or Boomerang)
   Exits:
       ET Giant Statue Room: Can_Defeat_Red_Chu_Chus and Can_Defeat_Green_Chu_Chus
@@ -2664,7 +2668,7 @@
   Exits:
       ET First Crypt: Skull_Hammer and Can_Play_CM
       ET Chu Chus and Switches Room: count(2, Earth_Temple_Small_Key)
-      ET Giant Statue Room Under Statue: Can_Play_CM and Can_Aim_Mirror_Shield
+      ET Giant Statue Room Under Statue: Can_Play_CM and Can_Get_Chest_Storage and Can_Fly_With_Deku_Leaf_Indoors # (Can_Play_CM and Can_Aim_Mirror_Shield) -- uncommented only glitch logic for cleaner tooltip
       ET Map Chest Room: Nothing
 
 - Name: ET First Crypt
@@ -2866,6 +2870,7 @@
   Exits:
       WT First Warp Pot Room Lower Area: Nothing
       WT First Room: Nothing
+      WT First Warp Pot Room Back: Can_Itemslide # new exit
 
 - Name: WT First Warp Pot Room Lower Area
   Dungeon: Wind Temple
@@ -2934,7 +2939,7 @@
       WT Hub Room First Floor East Platform: Can_Fly_With_Deku_Leaf_Indoors
       WT Hub Room Second Floor South Platform: Can_Fly_With_Deku_Leaf_Indoors and 'Can_Start_WT_Hub_Room_Fan'
       WT Hub Room Second Floor East Platform: Can_Fly_With_Deku_Leaf_Indoors and 'Can_Start_WT_Hub_Room_Fan'
-      WT Hub Room Basement Above Fan: "'Can_Open_WT_Hub_Room_1F_Grate'"
+      WT Hub Room Basement Above Fan: "'Can_Open_WT_Hub_Room_1F_Grate' or (Hookshot and Can_Fly_With_Deku_Leaf_Indoors)"
 
 - Name: WT Hub Room First Floor West Platform
   Dungeon: Wind Temple
@@ -3028,7 +3033,7 @@
       WT Mini Boss Room: count(2, Wind_Temple_Small_Key)
       WT Hub Room Compass Chest Platform: (Hookshot or 'Can_Start_WT_Hub_Room_Fan') and Can_Fly_With_Deku_Leaf_Indoors
       WT Hub Room Above First Floor Grate: "'Can_Open_WT_Hub_Room_1F_Grate' and 'Can_Start_WT_Hub_Room_Fan'"
-      WT Hub Room Basement Below Fan: "'Can_Open_WT_Hub_Room_Fan_Grate'"
+      WT Hub Room Basement Below Fan: "'Can_Open_WT_Hub_Room_Fan_Grate' or (Hookshot and Can_Fly_With_Deku_Leaf_Indoors)" #'Can_Open_WT_Hub_Room_Fan_Grate'"
 
 - Name: WT Mini Boss Room
   Locations:
@@ -3039,7 +3044,7 @@
 - Name: WT Cracked Floors Room
   Dungeon: Wind Temple
   Locations:
-      Wind Temple - Spike Wall Room First Chest: Iron_Boots
+      Wind Temple - Spike Wall Room First Chest: Iron_Boots or Can_Fly_With_Deku_Leaf_Indoors # Iron_Boots
       Wind Temple - Spike Wall Room Destroy Floors: Iron_Boots and Can_Defeat_Floormasters
   Exits:
       WT Hub Room Basement Above Fan: Nothing
@@ -3094,7 +3099,7 @@
   Dungeon: Wind Temple
   Exits:
       WT Hub Room Basement Above Fan: Nothing
-      WT Tall Basement Room: count(2, Wind_Temple_Small_Key)
+      WT Tall Basement Room: count(1, Wind_Temple_Small_Key) # count(2, Wind_Temple_Small_Key) # super lazy fix
 
 - Name: WT Tall Basement Room
   Dungeon: Wind Temple
@@ -3121,7 +3126,7 @@
 - Name: WT Three Big Fans Room
   Dungeon: Wind Temple
   Exits:
-      WT Three Big Fans Room Past Song Stone: Iron_Boots and Can_Play_WGA
+      WT Three Big Fans Room Past Song Stone: (Iron_Boots and Can_Play_WGA) or Can_Itemslide # Iron_Boots and Can_Play_WGA
       WT Long Narrow Room Past Gap: Nothing
 
 - Name: WT Three Big Fans Room Past Song Stone
@@ -3130,7 +3135,7 @@
       Can Open WT Gold Pot: Bombs or Fire_Arrows or Skull_Hammer or Heros_Sword
       Can Get Fairies: Nothing
   Exits:
-      Molgera Battle Arena: Wind_Temple_Big_Key
+      Molgera Battle Arena: Wind_Temple_Big_Key or Can_Get_Chest_Storage # Wind_Temple_Big_Key
       WT First Warp Pot Room Lower Area: "'Can_Open_WT_Green_Pot' and 'Can_Open_WT_Gold_Pot'"
       WT Hub Room First Floor South Platform: "'Can_Open_WT_Blue_Pot' and 'Can_Open_WT_Gold_Pot'" # either goes gold -> blue or gold -> green -> blue
 
