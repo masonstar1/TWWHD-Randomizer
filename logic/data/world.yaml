@@ -3278,7 +3278,7 @@
   Hint Region: Ganon's Tower
   Exits:
       Ganon's Tower Puppet Ganon Boss Arena Side Shelves: Hookshot
-      Ganon's Tower Puppet Ganon Boss Room Lowest Platform: Can_Defeat_Puppet_Ganon
+      Ganon's Tower Puppet Ganon Boss Room Lowest Platform: Can_Defeat_Puppet_Ganon or Can_Defeat_Puppet_Ganon_Epicly
       Ganon's Tower Puppet Ganon Boss Room Morth Platform: "'Can_Open_PG_Warp_Pot'"
 
 - Name: Ganon's Tower Puppet Ganon Boss Arena Side Shelves
