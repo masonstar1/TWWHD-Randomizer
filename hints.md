@@ -1,4 +1,4 @@
-<h1>Forsaken Fortress - Chest on Bed</h1>
+<h2>Forsaken Fortress - Chest on Bed</h2>
 <details>
   <summary>Hint</summary>
   Chest Storage
@@ -19,7 +19,7 @@
   
 </details><br>
 
-<h3>Windfall Island - Pirate Ship Chest</h3>
+<h2>Windfall Island - Pirate Ship Chest</h2>
 <details>
   <summary>Hint</summary>
   Layer Manip
@@ -29,7 +29,7 @@
   
 </details><br>
 
-Pawprint Isle - Chu Chu Cave Chest Behind Left Boulder
+<h2>Pawprint Isle - Chu Chu Cave Chest Behind Left Boulder</h2>
 <details>
   <summary>Hint</summary>
   Chest Storage
@@ -39,7 +39,7 @@ Pawprint Isle - Chu Chu Cave Chest Behind Left Boulder
   
 </details><br>
 
-Thorned Fairy Island - Great Fairy
+<h2>Thorned Fairy Island - Great Fairy</h2>
 <details>
   <summary>Hint</summary>
   Fairy Clip
@@ -49,7 +49,7 @@ Thorned Fairy Island - Great Fairy
 
 </details><br>
 
-Headstone Island - Top of Island
+<h2>Headstone Island - Top of Island</h2>
 <details>
   <summary>Hint</summary>
  Chest Storage
@@ -59,7 +59,7 @@ Headstone Island - Top of Island
   
 </details><br>
 
-Cliff Plateau Isles - Highest Isle Chest
+<h2>Cliff Plateau Isles - Highest Isle Chest</h2>
 <details>
   <summary>Hint</summary>
  Chest Storage
@@ -69,7 +69,7 @@ Cliff Plateau Isles - Highest Isle Chest
   
 </details><br>
 
-Diamond Steppe Island - Maze Second Chest
+<h2>Diamond Steppe Island - Maze Second Chest</h2>
 <details>
   <summary>Hint</summary>
  Octo
@@ -79,7 +79,7 @@ Diamond Steppe Island - Maze Second Chest
   
 </details><br>
 
-Windfall Island - Maggie Delivery Reward
+<h2>Windfall Island - Maggie Delivery Reward</h2>
 <details>
   <summary>Hint</summary>
  do your checks
@@ -89,7 +89,7 @@ Windfall Island - Maggie Delivery Reward
   
 </details><br>
 
-Bomb Island - Cave Chest
+<h2>Bomb Island - Cave Chest</h2>
 <details>
   <summary>Hint</summary>
  Chest Storage
@@ -99,7 +99,7 @@ Bomb Island - Cave Chest
   
 </details><br>
 
-Dragon Roost Cavern - Mini Boss
+<h2>Dragon Roost Cavern - Mini Boss</h2>
 <details>
   <summary>Hint</summary>
  Oddshot
@@ -109,7 +109,7 @@ Dragon Roost Cavern - Mini Boss
   
 </details><br>
 
-Dragon Roost Cavern - Dark Room Chest
+<h2>Dragon Roost Cavern - Dark Room Chest</h2>
 <details>
   <summary>Hint</summary>
  Chest Storage
@@ -119,7 +119,7 @@ Dragon Roost Cavern - Dark Room Chest
   
 </details><br>
 
-Dragon Roost Cavern - Gohma Heart Container
+<h2>Dragon Roost Cavern - Gohma Heart Container</h2>
 <details>
   <summary>Hint</summary>
  Chest Storage
@@ -129,7 +129,7 @@ Dragon Roost Cavern - Gohma Heart Container
   
 </details><br>
 
-Windfall Island - Minenco Miss Windfall Picture
+<h2>Windfall Island - Minenco Miss Windfall Picture</h2>
 <details>
   <summary>Hint</summary>
  do your checks
@@ -139,7 +139,7 @@ Windfall Island - Minenco Miss Windfall Picture
   
 </details><br>
 
-Hyrule Castle - Sword Chamber Chest
+<h2>Hyrule Castle - Sword Chamber Chest</h2>
 <details>
   <summary>Hint</summary>
  do your checks and fight good
@@ -149,7 +149,7 @@ Hyrule Castle - Sword Chamber Chest
   
 </details><br>
 
-Outset Great Fairy
+<h2>Outset Great Fairy</h2>
 <details>
   <summary>Hint</summary>
  
@@ -159,7 +159,7 @@ Outset Great Fairy
   
 </details><br>
 
-Earth Temple - Warp Pot Room Chest
+<h2>Earth Temple - Warp Pot Room Chest</h2>
 <details>
   <summary>Hint</summary>
  walk
@@ -169,7 +169,7 @@ Earth Temple - Warp Pot Room Chest
   
 </details><br>
 
-Earth Temple - Warp Pot Room Behind Curtain
+<h2>Earth Temple - Warp Pot Room Behind Curtain</h2>
 <details>
   <summary>Hint</summary>
  vanilla
@@ -179,7 +179,7 @@ Earth Temple - Warp Pot Room Behind Curtain
   
 </details><br>
 
-Earth Temple - Near Hammer Button Behind Curtain
+<h2>Earth Temple - Near Hammer Button Behind Curtain</h2>
 <details>
   <summary>Hint</summary>
  ET Giant Statue Room Upper Ledge
@@ -189,7 +189,7 @@ Earth Temple - Near Hammer Button Behind Curtain
   
 </details><br>
 
-Wind Temple - Spike Wall Room First Chest
+<h2>Wind Temple - Spike Wall Room First Chest</h2>
 <details>
   <summary>Hint</summary>
  Deku Leaf
@@ -199,7 +199,7 @@ Wind Temple - Spike Wall Room First Chest
   
 </details><br>
 
-Wind Temple - Molgera Heart Container
+<h2>Wind Temple - Molgera Heart Container</h2>
 <details>
   <summary>Hint</summary>
  Chest Storage
@@ -209,7 +209,7 @@ Wind Temple - Molgera Heart Container
   
 </details><br>
 
-Ganon's Tower - Maze Chest
+<h2>Ganon's Tower - Maze Chest</h2>
 <details>
   <summary>Hint</summary>
  Vanilla
