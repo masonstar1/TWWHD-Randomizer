@@ -6,7 +6,8 @@ Forsaken Fortress - Chest on Bed
 <details>
   <summary>Solution</summary>
 
-</details>
+</details><br>
+
 
 Windfall Island - Lenzo House Left Chest
 <details>
@@ -16,7 +17,7 @@ Windfall Island - Lenzo House Left Chest
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Windfall Island - Pirate Ship Chest
 <details>
@@ -26,7 +27,7 @@ Windfall Island - Pirate Ship Chest
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Pawprint Isle - Chu Chu Cave Chest Behind Left Boulder
 <details>
@@ -36,7 +37,7 @@ Pawprint Isle - Chu Chu Cave Chest Behind Left Boulder
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Thorned Fairy Island - Great Fairy
 <details>
@@ -46,7 +47,7 @@ Thorned Fairy Island - Great Fairy
 <details>
   <summary>Solution</summary>
 
-</details>
+</details><br>
 
 Headstone Island - Top of Island
 <details>
@@ -56,7 +57,7 @@ Headstone Island - Top of Island
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Cliff Plateau Isles - Highest Isle Chest
 <details>
@@ -66,7 +67,7 @@ Cliff Plateau Isles - Highest Isle Chest
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Diamond Steppe Island - Maze Second Chest
 <details>
@@ -76,7 +77,7 @@ Diamond Steppe Island - Maze Second Chest
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Windfall Island - Maggie Delivery Reward
 <details>
@@ -86,7 +87,7 @@ Windfall Island - Maggie Delivery Reward
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Bomb Island - Cave Chest
 <details>
@@ -96,7 +97,7 @@ Bomb Island - Cave Chest
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Dragon Roost Cavern - Mini Boss
 <details>
@@ -106,7 +107,7 @@ Dragon Roost Cavern - Mini Boss
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Dragon Roost Cavern - Dark Room Chest
 <details>
@@ -116,7 +117,7 @@ Dragon Roost Cavern - Dark Room Chest
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Dragon Roost Cavern - Gohma Heart Container
 <details>
@@ -126,7 +127,7 @@ Dragon Roost Cavern - Gohma Heart Container
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Windfall Island - Minenco Miss Windfall Picture
 <details>
@@ -136,7 +137,7 @@ Windfall Island - Minenco Miss Windfall Picture
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Hyrule Castle - Sword Chamber Chest
 <details>
@@ -146,7 +147,7 @@ Hyrule Castle - Sword Chamber Chest
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Outset Great Fairy
 <details>
@@ -156,7 +157,7 @@ Outset Great Fairy
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Earth Temple - Warp Pot Room Chest
 <details>
@@ -166,7 +167,7 @@ Earth Temple - Warp Pot Room Chest
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Earth Temple - Warp Pot Room Behind Curtain
 <details>
@@ -176,7 +177,7 @@ Earth Temple - Warp Pot Room Behind Curtain
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Earth Temple - Near Hammer Button Behind Curtain
 <details>
@@ -186,7 +187,7 @@ Earth Temple - Near Hammer Button Behind Curtain
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Wind Temple - Spike Wall Room First Chest
 <details>
@@ -196,7 +197,7 @@ Wind Temple - Spike Wall Room First Chest
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Wind Temple - Molgera Heart Container
 <details>
@@ -206,7 +207,7 @@ Wind Temple - Molgera Heart Container
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
 
 Ganon's Tower - Maze Chest
 <details>
@@ -216,4 +217,4 @@ Ganon's Tower - Maze Chest
 <details>
   <summary>Solution</summary>
   
-</details>
+</details><br>
