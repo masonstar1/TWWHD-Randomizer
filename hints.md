@@ -1,4 +1,4 @@
-Forsaken Fortress - Chest on Bed
+<h1>Forsaken Fortress - Chest on Bed</h1>
 <details>
   <summary>Hint</summary>
   Chest Storage
@@ -9,7 +9,7 @@ Forsaken Fortress - Chest on Bed
 </details><br>
 
 
-Windfall Island - Lenzo House Left Chest
+<h2>Windfall Island - Lenzo House Left Chest</h2>
 <details>
   <summary>Hint</summary>
   Item slide
@@ -19,7 +19,7 @@ Windfall Island - Lenzo House Left Chest
   
 </details><br>
 
-Windfall Island - Pirate Ship Chest
+<h3>Windfall Island - Pirate Ship Chest</h3>
 <details>
   <summary>Hint</summary>
   Layer Manip
