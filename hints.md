@@ -108,7 +108,7 @@
 </details>
 <details>
   <summary>Solution</summary>
-  
+  https://www.youtube.com/watch?v=502Lj3BxTH8
 </details><br>
 
 <h2>Dragon Roost Cavern - Dark Room Chest</h2>
