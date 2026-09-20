@@ -25,6 +25,8 @@
   Layer Manip
 </details>
 <details>
+  FCP Island Hop!
+  https://youtu.be/vDD-FntXRt0?si=6EMOdHATMiT-ScOi&t=1690
   <summary>Solution</summary>
   
 </details><br>
@@ -106,7 +108,7 @@
 </details>
 <details>
   <summary>Solution</summary>
-  
+  https://www.youtube.com/watch?v=502Lj3BxTH8
 </details><br>
 
 <h2>Dragon Roost Cavern - Dark Room Chest</h2>
