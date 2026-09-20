@@ -23,8 +23,17 @@ Can Use Hurricane Spin: Hurricane_Spin and Magic
 Can Aim Mirror Shield: Mirror_Shield and (Heros_Sword or Wind_Waker or Grappling_Hook or Boomerang or Deku_Leaf or Heros_Bow or Hookshot)
 
 # Glitched Macros
-Can Get Chest Storage: Wind_Waker
+Can Get Chest Storage: Wind_Waker and Classic_Mode == true # does this work
+Can Get Chest Storage Obscure: Wind_Waker and Bombs and Classic_Mode == true
 Can Itemslide: Grappling_Hook or Hookshot or Boomerang or Heros_Bow
+Can Real Itemslide: Grappling_Hook or Heros_Bow or Hookshot
+Can Roll Clip: Nothing
+Can Fly Roll Clip: Deku_Leaf and Magic
+Can Leaf Pump: Deku_Leaf and Magic
+Can Island Hop: Can_Itemslide
+Can Oddshot: Can_Itemslide
+Can Do Speedrun Strat: Nothing
+Can Morth Hover: Heros_Sword and Heros_Bow
 
 
 Can Move Boulders: Bombs or Power_Bracelets
@@ -101,7 +110,7 @@ Can Defeat Boko Babas At Range: Hookshot or Heros_Bow or Bombs or Boomerang or (
 Can Defeat Mothulas: Heros_Sword or Heros_Bow or Bombs or Skull_Hammer
 Can Defeat Winged Mothulas: Heros_Sword or Heros_Bow or Bombs or Skull_Hammer
 Can Defeat Wizzrobes: Heros_Sword or Heros_Bow or Bombs or Skull_Hammer or Hookshot
-Can Defeat Wizzrobes At Range: Heros_Bow # or Hookshot -> this is now under precise logic for SD, should be added with trick options
+Can Defeat Wizzrobes At Range: Heros_Bow or Hookshot # or Hookshot -> this is now under precise logic for SD, should be added with trick options
 Can Defeat Armos: Heros_Sword or Heros_Bow or Bombs or Skull_Hammer or Hookshot
 Can Defeat Armos Knights: Bombs or Light_Arrows
 Can Defeat Big Octos: Heros_Bow or Bombs or Boomerang
@@ -126,6 +135,7 @@ Can Defeat Seahats: Heros_Bow or Hookshot or Bombs or Boomerang
 Can Defeat Gunboats: Bombs
 Can Defeat Gohma: Grappling_Hook
 Can Defeat Kalle Demos: Boomerang
+Can Defeat Kalle Demos Epicly: Heros_Bow or Grappling_Hook
 Can Defeat Gohdan: Bombs and (Hookshot or Heros_Bow)
 Can Defeat Helmaroc King: Skull_Hammer
 Can Defeat Jalhalla: Can_Defeat_Jalhalla_Poes and Power_Bracelets and (Can_Aim_Mirror_Shield or Light_Arrows)

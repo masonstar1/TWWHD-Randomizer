@@ -131,15 +131,16 @@
       Forsaken Fortress - Phantom Ganon: Can_Defeat_Phantom_Ganon
   Exits:
       Forsaken Fortress Barrel Storage Room Lower: Can_Defeat_Phantom_Ganon
-      Forsaken Fortress Sleeping Quarters Outside Ledge: Can_Fly_With_Deku_Leaf_Outdoors or Can_Get_Chest_Storage # Can_Fly_With_Deku_Leaf_Outdoors
-      Forsaken Fortress Up Switch Back Stairs: Skull_Hammer
+      Forsaken Fortress Sleeping Quarters Outside Ledge: Can_Fly_With_Deku_Leaf_Outdoors or Can_Get_Chest_Storage or Can_Itemslide # Can_Fly_With_Deku_Leaf_Outdoors
+      Forsaken Fortress Up Switch Back Stairs: Skull_Hammer or Can_Itemslide # Skull_Hammer
       Forsaken Fortress Sector: (Bombs or Can_Play_BoG) or Can_Itemslide # (Bombs or Can_Play_BoG)
+      Forsaken Fortress Boat Room Lower: Can_Roll_Clip or Can_Get_Chest_Storage # new exit
 
 - Name: Forsaken Fortress Sleeping Quarters Outside Ledge
   Dungeon: Forsaken Fortress
   Exits:
       Forsaken Fortress Inner Courtyard: Nothing
-      Forsaken Fortress Sleeping Quarters: Can_Get_Chest_Storage # Can_Defeat_Phantom_Ganon
+      Forsaken Fortress Sleeping Quarters: Can_Get_Chest_Storage or Can_Defeat_Phantom_Ganon # Can_Defeat_Phantom_Ganon
 
 - Name: Forsaken Fortress Sleeping Quarters
   Dungeon: Forsaken Fortress
@@ -148,7 +149,7 @@
   Exits:
       Forsaken Fortress Sleeping Quarters Outside Ledge: Nothing
       Forsaken Fortress Southwest Hallway Upper: Nothing
-      Forsaken Fortress Sleeping Quarters Past Hammer Pegs: Can_Fly_With_Deku_Leaf_Indoors and Skull_Hammer
+      Forsaken Fortress Sleeping Quarters Past Hammer Pegs: (Can_Fly_With_Deku_Leaf_Indoors and Skull_Hammer) or Can_Itemslide # Can_Fly_With_Deku_Leaf_Indoors and Skull_Hammer
       Forsaken Fortress Northwest Hallway Lower: Nothing
 
 - Name: Forsaken Fortress Northwest Hallway Lower
@@ -162,32 +163,33 @@
   Exits:
       Forsaken Fortress Northwest Hallway Lower: Nothing
       Forsaken Fortress Northeast Hallway Lower: Nothing
+      Forsaken Fortress Jail Cell Upper West: Nothing # floor master grab
 
 - Name: Forsaken Fortress Northeast Hallway Lower
   Dungeon: Forsaken Fortress
   Exits:
       Forsaken Fortress Boat Room Lower: Nothing
-      Forsaken Fortress Barrel Storage Room Lower: Skull_Hammer
+      Forsaken Fortress Barrel Storage Room Lower: Skull_Hammer or Can_Itemslide # Skull_Hammer
 
 - Name: Forsaken Fortress Barrel Storage Room Lower
   Dungeon: Forsaken Fortress
   Exits:
       Forsaken Fortress Southeast Hallway Lower: Nothing
-      Forsaken Fortress Northeast Hallway Lower: Skull_Hammer
+      Forsaken Fortress Northeast Hallway Lower: Skull_Hammer or Can_Itemslide # Skull_Hammer
 
 - Name: Forsaken Fortress Southeast Hallway Lower
   Dungeon: Forsaken Fortress
   Exits:
-      Forsaken Fortress Mess Hall Lower: Skull_Hammer
+      Forsaken Fortress Mess Hall Lower: Skull_Hammer or Can_Itemslide # Skull_Hammer
       Forsaken Fortress Barrel Storage Room Lower: Nothing
 
 - Name: Forsaken Fortress Mess Hall Lower
   Dungeon: Forsaken Fortress
   Exits:
       Forsaken Fortress South Hallway Lower: Nothing
-      Forsaken Fortress Southeast Hallway Lower: Skull_Hammer
-      Forsaken Fortress Mess Hall Upper South: Hookshot # can hookshot the chest after climbing the ladder
-      Forsaken Fortress Mess Hall Upper North: Skull_Hammer # can jump to the platform after climbing the ladder, need hammer to get past the pegs
+      Forsaken Fortress Southeast Hallway Lower: Skull_Hammer or Can_Itemslide # Skull_Hammer
+      Forsaken Fortress Mess Hall Upper South: Nothing # Hookshot # can hookshot the chest after climbing the ladder # but you can also just jump to make this
+      Forsaken Fortress Mess Hall Upper North: Skull_Hammer or Can_Itemslide # Skull_Hammer # can jump to the platform after climbing the ladder, need hammer to get past the pegs vanilla, can itemslide
 
 - Name: Forsaken Fortress South Hallway Lower
   Dungeon: Forsaken Fortress
@@ -205,7 +207,7 @@
 - Name: Forsaken Fortress Sleeping Quarters Past Hammer Pegs
   Dungeon: Forsaken Fortress
   Exits:
-      Forsaken Fortress Sleeping Quarters: Skull_Hammer
+      Forsaken Fortress Sleeping Quarters: Skull_Hammer or Can_Itemslide # Skull_Hammer
       Forsaken Fortress Northwest Hallway Upper: Nothing
 
 - Name: Forsaken Fortress Northwest Hallway Upper
@@ -265,15 +267,15 @@
   Dungeon: Forsaken Fortress
   Exits:
       Forsaken Fortress Southeast Hallway Upper: Nothing
-      Forsaken Fortress Mess Hall Lower: Skull_Hammer
-      Forsaken Fortress Mess Hall Upper South: Skull_Hammer and (Hookshot or Can_Fly_With_Deku_Leaf_Indoors)
+      Forsaken Fortress Mess Hall Lower: Skull_Hammer or Can_Itemslide # Skull_Hammer
+      Forsaken Fortress Mess Hall Upper South: (Skull_Hammer and (Hookshot or Can_Fly_With_Deku_Leaf_Indoors)) or Can_Itemslide # Skull_Hammer and (Hookshot or Can_Fly_With_Deku_Leaf_Indoors)
 
 - Name: Forsaken Fortress Mess Hall Upper South
   Dungeon: Forsaken Fortress
   Locations:
       Forsaken Fortress - Chest Guarded by Bokoblin: Nothing
   Exits:
-      Forsaken Fortress Mess Hall Upper North: Skull_Hammer and Can_Fly_With_Deku_Leaf_Indoors
+      Forsaken Fortress Mess Hall Upper North: (Skull_Hammer and Can_Fly_With_Deku_Leaf_Indoors) or Can_Itemslide # Skull_Hammer and Can_Fly_With_Deku_Leaf_Indoors
       Forsaken Fortress Mess Hall Lower: Nothing
       Forsaken Fortress Up Switch Back Stairs: Nothing
 
@@ -309,7 +311,7 @@
 - Name: Forsaken Fortress Jail Cell Upper East
   Dungeon: Forsaken Fortress
   Exits:
-      Forsaken Fortress Jail Cell Upper West: Can_Fly_With_Deku_Leaf_Indoors or Hookshot
+      Forsaken Fortress Jail Cell Upper West: Can_Fly_With_Deku_Leaf_Indoors or Hookshot or Can_Itemslide # Can_Fly_With_Deku_Leaf_Indoors or Hookshot
       Forsaken Fortress Jail Cell Lower: Nothing
       Forsaken Fortress Southwest Hallway Upper: Nothing
       Forsaken Fortress Up Switch Back Stairs: Nothing
@@ -319,7 +321,7 @@
   Locations:
       Forsaken Fortress - Chest Outside Upper Jail Cell: Nothing
   Exits:
-      Forsaken Fortress Jail Cell Upper East: Can_Fly_With_Deku_Leaf_Indoors
+      Forsaken Fortress Jail Cell Upper East: Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide # Can_Fly_With_Deku_Leaf_Indoors
       Forsaken Fortress Jail Cell Lower: Nothing
 
 - Name: Forsaken Fortress Southwest Hallway Upper
@@ -332,7 +334,7 @@
 - Name: Forsaken Fortress Outside Path to Boss
   Dungeon: Forsaken Fortress
   Exits:
-      Forsaken Fortress Before First Sidle Gap: Skull_Hammer
+      Forsaken Fortress Before First Sidle Gap: Skull_Hammer or Can_Itemslide # Skull_Hammer
       Forsaken Fortress Inner Courtyard: Nothing
       Forsaken Fortress Boat Room Upper: Nothing
 
@@ -342,12 +344,12 @@
       Forsaken Fortress Before Second Sidle Gap: Nothing
       Forsaken Fortress Inner Courtyard: Nothing
       Forsaken Fortress Southeast Hallway Upper: Nothing # Can jump down
-      Forsaken Fortress Outside Path to Boss: Skull_Hammer
+      Forsaken Fortress Outside Path to Boss: Skull_Hammer or Can_Itemslide # Skull_Hammer
 
 - Name: Forsaken Fortress Before Second Sidle Gap
   Dungeon: Forsaken Fortress
   Exits:
-      Forsaken Fortress Before Boss Door: Can_Fly_With_Deku_Leaf_Outdoors or Grappling_Hook or 'Can_Disable_Southeast_Searchlight'
+      Forsaken Fortress Before Boss Door: Can_Fly_With_Deku_Leaf_Outdoors or Grappling_Hook or 'Can_Disable_Southeast_Searchlight' or Can_Itemslide # Can_Fly_With_Deku_Leaf_Outdoors or Grappling_Hook or 'Can_Disable_Southeast_Searchlight'
       Forsaken Fortress Inner Courtyard: Nothing
       Forsaken Fortress Southeast Hallway Upper: Nothing # Can jump down
       Forsaken Fortress Before First Sidle Gap: Nothing
@@ -355,7 +357,7 @@
 - Name: Forsaken Fortress Before Boss Door
   Dungeon: Forsaken Fortress
   Exits:
-      Helmaroc King Battle Arena: Skull_Hammer
+      Helmaroc King Battle Arena: Skull_Hammer or Can_Real_Itemslide
       Forsaken Fortress Inner Courtyard: Nothing
       Forsaken Fortress Before Second Sidle Gap: Nothing # Can jump back across the platforms
 
@@ -365,7 +367,7 @@
   Locations:
       Forsaken Fortress - Helmaroc King Heart Container: Can_Defeat_Helmaroc_King
   Exits:
-      Forsaken Fortress Before Boss Door: Can_Defeat_Helmaroc_King
+      Forsaken Fortress Before Boss Door: Can_Defeat_Helmaroc_King or Can_Do_Speedrun_Strat # Can_Defeat_Helmaroc_King
 
 - Name: Star Island
   Island: Star Island
@@ -406,7 +408,7 @@
   Island: Northern Fairy Island
   Exits:
       Northern Fairy Island Submarine Interior: Nothing
-      Northern Fairy Island: Can_Sail_Away
+      Northern Fairy Island: Can_Sail_Away or Can_Itemslide # Can_Sail_Away
 
 - Name: Northern Fairy Island Submarine Interior
   Locations:
@@ -444,7 +446,7 @@
       Crescent Moon Island - Sunken Treasure: Chart_For_Island_5 and Can_Salvage_Sunken_Treasure
       Crescent Moon Island - Old Man Ho Ho: Nothing
   Exits:
-      Crescent Moon Submarine Exterior: Can_Sail_Away
+      Crescent Moon Submarine Exterior: Can_Sail_Away or Can_Itemslide # Can_Sail_Away
       The Great Sea: Nothing
 
 - Name: Crescent Moon Submarine Exterior
@@ -455,7 +457,7 @@
 
 - Name: Crescent Moon Submarine Interior
   Locations:
-      Crescent Moon Island - Submarine Chest: Can_Defeat_Miniblins
+      Crescent Moon Island - Submarine Chest: Can_Defeat_Miniblins or Can_Itemslide # Can_Defeat_Miniblins
   Exits:
       Crescent Moon Submarine Exterior: Nothing
 
@@ -483,7 +485,7 @@
       Overlook Island - Sunken Treasure: Chart_For_Island_7 and Can_Salvage_Sunken_Treasure
   Exits:
       The Great Sea: Nothing
-      Overlook Island Upper Isles: Hookshot
+      Overlook Island Upper Isles: Hookshot # or (Can_Itemslide and can_access(Dragon Roost Island Flight Deck))
 
 - Name: Overlook Island Upper Isles
   Island: Overlook Island
@@ -537,6 +539,7 @@
       Mother & Child Isles - Inside Mother Isle: Nothing
   Exits:
       The Great Sea: Can_Play_BoG
+      Mother & Child Isles: Can_Itemslide # new exit
 
 - Name: Spectacle Island
   Island: Spectacle Island
@@ -595,14 +598,14 @@
       Windfall Potion Shop: Nothing
       Windfall Bomb Shop: Nothing
       Windfall Bomb Shop Upper Ledge: Nothing
-      Windfall Pirate Ship: Can_Itemslide # Nothing
+      Windfall Pirate Ship: Can_Itemslide # Nothing # only used for 0.1 challenge seed
       Windfall Beedle Shop: Nothing
       Mailbox Checks: Nothing
       The Great Sea: Nothing
 
 - Name: Windfall Island Riding Ferris Wheel # specifically the moving wheel
   Events:
-      Can Light Windfall Lighthouse: Fire_Arrows and Can_Play_SoP
+      Can Light Windfall Lighthouse: Fire_Arrows and Can_Play_SoP # can you have multiple events? have this on Windfall Island too
   Exits:
       Windfall Island: Nothing
       Windfall Lenzo's House Upper Ledge: Nothing
@@ -653,7 +656,7 @@
 - Name: Windfall Lenzo's House Upper Ledge
   Island: Windfall Island
   Exits:
-      Windfall Lenzo's House Upper: Can_Itemslide # Picto_Box and 'Can_Start_Lenzo_Quest'
+      Windfall Lenzo's House Upper: Can_Itemslide or (Picto_Box and 'Can_Start_Lenzo_Quest') # Picto_Box and 'Can_Start_Lenzo_Quest'
       Windfall Island: Nothing
 
 - Name: Windfall Cafe Bar
@@ -738,7 +741,7 @@
       Pawprint Isle - Sunken Treasure: Chart_For_Island_12 and Can_Salvage_Sunken_Treasure
   Exits:
       Pawprint Chu Chu Cave: Nothing
-      Pawprint Wizzrobe Cave Isle: Hookshot
+      Pawprint Wizzrobe Cave Isle: Hookshot or Can_Itemslide # Hookshot
       Pawprint Lookout Platform: Can_Sail_Away
       Pawprint Beedle Shop: Nothing
       Mailbox Checks: Nothing
@@ -748,7 +751,7 @@
   Locations:
       Pawprint Isle - Chu Chu Cave Chest: Nothing
       Pawprint Isle - Chu Chu Cave Chest Behind Left Boulder: (Can_Itemslide and Can_Get_Chest_Storage) or Can_Move_Boulders # Can_Move_Boulders
-      Pawprint Isle - Chu Chu Cave Chest Behind Right Boulder: Can_Move_Boulders
+      Pawprint Isle - Chu Chu Cave Chest Behind Right Boulder: Can_Move_Boulders or Can_Itemslide # Can_Move_Boulders
       Pawprint Isle - Chu Chu Cave Chest Scale Wall: Grappling_Hook
   Exits:
       Pawprint Isle: Nothing
@@ -791,6 +794,7 @@
       Dragon Roost Island - Wind Shrine: Wind_Waker
       Dragon Roost Island - Boulder Chest: Heros_Bow or Bombs or Boomerang or (Bait_Bag and 'Can_Buy_Hyoi_Pears')
       Dragon Roost Island - Sunken Treasure: Chart_For_Island_13 and Can_Salvage_Sunken_Treasure
+      Dragon Roost Island - Fly Across Platforms Around Island: Can_Get_Chest_Storage and (Heros_Bow or Bombs or Boomerang or (Bait_Bag and 'Can_Buy_Hyoi_Pears'))
   Exits:
       Dragon Roost Rito Aerie: Nothing
       Dragon Roost Island Cave: Can_Move_Boulders
@@ -812,11 +816,11 @@
 - Name: Dragon Roost Pond
   Exits:
       Dragon Roost Rito Aerie: Nothing
-      Dragon Roost Pond Past Statues: Open_DRC == true or Bombs or Power_Bracelets or Empty_Bottle or Can_Fly_With_Deku_Leaf_Outdoors # The changing wind disappears here if you have Din's pearl
+      Dragon Roost Pond Past Statues: Open_DRC == true or Bombs or Power_Bracelets or Empty_Bottle or Can_Fly_With_Deku_Leaf_Outdoors or Can_Itemslide # The changing wind disappears here if you have Din's pearl
 
 - Name: Dragon Roost Pond Past Statues
   Exits:
-      Dragon Roost Pond: Bombs or Can_Fly_With_Deku_Leaf_Outdoors # The changing wind disappears here if you have Din's pearl
+      Dragon Roost Pond: Bombs or Can_Fly_With_Deku_Leaf_Outdoors or Can_Itemslide # Bombs or Can_Fly_With_Deku_Leaf_Outdoors # The changing wind disappears here if you have Din's pearl
       DRC First Room: Nothing
 
 - Name: Dragon Roost Pond Upper Ledge
@@ -826,7 +830,7 @@
 - Name: Dragon Roost Island Flight Deck
   Island: Dragon Roost Island
   Locations:
-      Dragon Roost Island - Fly Across Platforms Around Island: Can_Fly_With_Deku_Leaf_Outdoors and (Can_Cut_Grass or Double_Magic)
+      Dragon Roost Island - Fly Across Platforms Around Island: (Can_Fly_With_Deku_Leaf_Outdoors and (Can_Cut_Grass or Double_Magic)) or (Can_Itemslide and Can_Fly_With_Deku_Leaf_Outdoors) # might be bad syntax
   Exits:
       Dragon Roost Island: Nothing
       Dragon Roost Rito Aerie: Nothing
@@ -854,7 +858,7 @@
 - Name: Flight Control Platform
   Island: Flight Control Platform
   Locations:
-      Flight Control Platform - First Prize: Can_Fly_With_Deku_Leaf_Outdoors and Double_Magic
+      Flight Control Platform - First Prize: (Can_Fly_With_Deku_Leaf_Outdoors and Double_Magic) or (Can_Itemslide and Can_Fly_With_Deku_Leaf_Outdoors) # Can_Fly_With_Deku_Leaf_Outdoors and Double_Magic
       Flight Control Platform - Sunken Treasure: Chart_For_Island_14 and Can_Salvage_Sunken_Treasure
       Flight Control Platform - Old Man Ho Ho: Nothing
   Exits:
@@ -871,8 +875,8 @@
 - Name: Flight Control Platform Submarine Interior
   Locations:
       Flight Control Platform - Submarine Chest:
-          Can_Defeat_Wizzrobes and Can_Defeat_Red_Chu_Chus and Can_Defeat_Green_Chu_Chus and
-          Can_Defeat_Miniblins and Can_Defeat_Wizzrobes_At_Range
+          (Can_Defeat_Wizzrobes and Can_Defeat_Red_Chu_Chus and Can_Defeat_Green_Chu_Chus and
+          Can_Defeat_Miniblins and Can_Defeat_Wizzrobes_At_Range) or Can_Itemslide or Can_Leaf_Pump
   Exits:
       Flight Control Platform Submarine Exterior: Nothing
 
@@ -886,6 +890,7 @@
       Western Fairy Lookout Platform: Can_Sail_Away
       Mailbox Checks: Nothing
       The Great Sea: Nothing
+      Western Fairy Island - Great Fairy Fountain: Can_Itemslide
 
 - Name: Western Fairy Island Past Flames
   Island: Western Fairy Island
@@ -914,7 +919,7 @@
       Rock Spire Isle - Sunken Treasure: Chart_For_Island_16 and Can_Salvage_Sunken_Treasure
   Exits:
       Rock Spire Beedle Shop: Nothing
-      Rock Spire Upper Ledges: Bombs
+      Rock Spire Upper Ledges: Bombs or (Can_Fly_With_Deku_Leaf_Outdoors and Can_Leaf_Pump)
       Rock Spire Platforms: Can_Sail_Away
       The Great Sea: Nothing
 
@@ -976,6 +981,7 @@
       Eastern Fairy Lookout Platform: Can_Sail_Away
       Mailbox Checks: Nothing
       The Great Sea: Nothing
+      Eastern Fairy Island - Great Fairy Fountain: Can_Itemslide # new exit
 
 - Name: Eastern Fairy Island Past Boulder
   Island: Eastern Fairy Island
@@ -1012,7 +1018,7 @@
   Locations:
       Fire Mountain - Interior Chest: Can_Defeat_Magtails
   Exits:
-      Fire Mountain: Can_Defeat_Magtails and (Power_Bracelets or Ice_Arrows) # need to open the chest for the warp to appear, lava platforms disappear shortly after you first step on them
+      Fire Mountain: Can_Defeat_Magtails and (Power_Bracelets or Ice_Arrows) # need to open the chest for the warp to appear, lava platforms disappear shortly after you first step on them # todo - maybe can exit glitched w/o?
 
 - Name: Fire Mountain Lookout Platform
   Island: Fire Mountain
@@ -1048,7 +1054,7 @@
 - Name: Greatfish Isle
   Island: Greatfish Isle
   Locations:
-      Greatfish Isle - Hidden Chest: Can_Fly_With_Deku_Leaf_Outdoors
+      Greatfish Isle - Hidden Chest: Can_Fly_With_Deku_Leaf_Outdoors or Can_Itemslide # Can_Fly_With_Deku_Leaf_Outdoors
       Greatfish Isle - Sunken Treasure: Chart_For_Island_23 and Can_Salvage_Sunken_Treasure
   Exits:
       Greatfish Beedle Shop: Nothing
@@ -1143,15 +1149,17 @@
       Thorned Fairy Island - Blue Chu Chu: Can_Get_Blue_Chu_Jelly_From_Blue_Chu_Chus
       Thorned Fairy Island - Sunken Treasure: Chart_For_Island_28 and Can_Salvage_Sunken_Treasure
   Exits:
-      Thorned Fairy Island Past Tentacles: Skull_Hammer or Can_Itemslide # Skull_Hammer
+      Thorned Fairy Island Past Tentacles: Skull_Hammer
       Thorned Fairy Lookout Platforms: Can_Sail_Away
       Mailbox Checks: Nothing
       The Great Sea: Nothing
+      Thorned Fairy Island - Great Fairy Fountain: Can_Itemslide # new exit - tree or island clips dont let you exist in the past tentacles area, only directly into LZ
 
 - Name: Thorned Fairy Island Past Tentacles
   Island: Thorned Fairy Island
   Exits:
-      Thorned Fairy Island - Great Fairy Fountain: Can_Sail_Away
+      Thorned Fairy Island - Great Fairy Fountain: Nothing # Can_Sail_Away
+      Thorned Fairy Island: Can_Itemslide or Heros_Sword # new exit
 
 - Name: Thorned Fairy Island - Great Fairy Fountain
   Events:
@@ -1172,12 +1180,12 @@
 - Name: Needle Rock Isle
   Island: Needle Rock Isle
   Locations:
-      Needle Rock Isle - Chest: Bait_Bag and 'Can_Buy_Hyoi_Pears'
+      Needle Rock Isle - Chest: (Bait_Bag and 'Can_Buy_Hyoi_Pears') or Fire_Arrows or (Can_Itemslide and Iron_Boots)
       Needle Rock Isle - Blue Chu Chu: Can_Get_Blue_Chu_Jelly_From_Blue_Chu_Chus
       Needle Rock Isle - Golden Gunboat: Can_Defeat_Gunboats and Can_Salvage_Sunken_Treasure
       Needle Rock Isle - Sunken Treasure: Chart_For_Island_29 and Can_Salvage_Sunken_Treasure
   Exits:
-      Needle Rock Cave: Fire_Arrows
+      Needle Rock Cave: Fire_Arrows # sword if you want to sit there for 2 mins
       Mailbox Checks: Nothing
       The Great Sea: Nothing
 
@@ -1192,7 +1200,7 @@
   Locations:
       Islet of Steel - Sunken Treasure: Chart_For_Island_30 and Can_Salvage_Sunken_Treasure
   Exits:
-      Islet of Steel Interior: Can_Defeat_Gunboats
+      Islet of Steel Interior: (Can_Defeat_Gunboats) or Can_Itemslide
       Islet of Steel Lookout Platform: Can_Sail_Away
       The Great Sea: Nothing
 
@@ -1261,12 +1269,12 @@
 - Name: Private Oasis
   Island: Private Oasis
   Locations:
-      Private Oasis - Top of Waterfall Chest: Can_Fly_With_Deku_Leaf_Outdoors or Hookshot
+      Private Oasis - Top of Waterfall Chest: (Can_Fly_With_Deku_Leaf_Outdoors or Hookshot) or Can_Itemslide
       Private Oasis - Big Octo: Can_Defeat_Big_Octos and Can_Salvage_Sunken_Treasure
       Private Oasis - Sunken Treasure: Chart_For_Island_33 and Can_Salvage_Sunken_Treasure
       Private Oasis - Old Man Ho Ho: Nothing
   Exits:
-      The Cabana: Delivery_Bag and Cabana_Deed
+      The Cabana: (Delivery_Bag and Cabana_Deed) or Grappling_Hook # itemslide requirement, idk if all item slide items work
       Mailbox Checks: Nothing
       The Great Sea: Nothing
 
@@ -1277,8 +1285,8 @@
 
 - Name: Cabana Labyrinth
   Locations:
-      Private Oasis - Cabana Labyrinth Lower Floor Chest: Skull_Hammer
-      Private Oasis - Cabana Labyrinth Upper Floor Chest: Skull_Hammer and Can_Play_WR
+      Private Oasis - Cabana Labyrinth Lower Floor Chest: Nothing # Skull_Hammer
+      Private Oasis - Cabana Labyrinth Upper Floor Chest: Can_Play_WR # Skull_Hammer and Can_Play_WR
   Exits:
       The Cabana: Nothing
 
@@ -1296,7 +1304,7 @@
 
 - Name: Bomb Island Cave
   Locations:
-      Bomb Island - Cave Chest: Can_Stun_Magtails
+      Bomb Island - Cave Chest: Can_Stun_Magtails or (Can_Itemslide and Iron_Boots) # Can_Stun_Magtails
   Exits:
       Bomb Island: Nothing
 
@@ -1324,7 +1332,7 @@
   Locations:
       Birds Peak Rock - Sunken Treasure: Chart_For_Island_35 and Can_Salvage_Sunken_Treasure
   Exits:
-      Birds Peak Rock Behind Bars: Bait_Bag and 'Can_Buy_Hyoi_Pears'
+      Birds Peak Rock Behind Bars: (Bait_Bag and 'Can_Buy_Hyoi_Pears') or Grappling_Hook or Can_Get_Chest_Storage # (Bait_Bag and 'Can_Buy_Hyoi_Pears')
       Birds Peak Rock Upper Isle: Grappling_Hook
       Mailbox Checks: Nothing
       The Great Sea: Nothing
@@ -1353,7 +1361,7 @@
       Diamond Steppe Island - Big Octo: Can_Defeat_Big_Octos and Can_Salvage_Sunken_Treasure
       Diamond Steppe Island - Sunken Treasure: Chart_For_Island_36 and Can_Salvage_Sunken_Treasure
   Exits:
-      Diamond Steppe Upper Island: Hookshot or (Can_Sail_Away and Wind_Waker) # Hookshot
+      Diamond Steppe Upper Island: Hookshot or ((Can_Sail_Away or Can_Fly_With_Deku_Leaf_Outdoors) and ((Can_Itemslide and Can_Roll_Clip) or Can_Get_Chest_Storage)) # Hookshot # octo void or fly to get on lower platform, then either chest storage or item slide roll clip to clip in pop up at the top water fountain 
       The Great Sea: Nothing
 
 - Name: Diamond Steppe Upper Island
@@ -1392,7 +1400,7 @@
   Locations:
       Shark Island - Sunken Treasure: Chart_For_Island_38 and Can_Salvage_Sunken_Treasure
   Exits:
-      Shark Island Cave: Skull_Hammer and Iron_Boots
+      Shark Island Cave: (Skull_Hammer and Iron_Boots) or Can_Itemslide or (Can_Fly_With_Deku_Leaf_Outdoors and Can_Roll_Clip) or (Can_Fly_With_Deku_Leaf_Outdoors and Can_Get_Chest_Storage) # (Skull_Hammer and Iron_Boots)
       Shark Island Upper Isle: Skull_Hammer and Iron_Boots and Can_Fly_With_Deku_Leaf_Outdoors
       Shark Island Beedle Shop: Nothing
       The Great Sea: Nothing
@@ -1409,7 +1417,7 @@
 
 - Name: Shark Island Cave
   Locations:
-      Shark Island - Cave Chest: Can_Defeat_Bokoblins and health(3)
+      Shark Island - Cave Chest: Can_Defeat_Bokoblins and health(3) # todo could remove health requirement
   Events:
       Can Farm Knights Crests: Grappling_Hook and Spoils_Bag
   Exits:
@@ -1425,11 +1433,13 @@
       Southern Fairy Lookout Platforms: Can_Sail_Away
       Mailbox Checks: Nothing
       The Great Sea: Nothing
+      Southern Fairy Island - Great Fairy Fountain: Can_Itemslide
 
 - Name: Southern Fairy Island Behind Wooden Barrier
   Island: Southern Fairy Island
   Exits:
       Southern Fairy Island - Great Fairy Fountain: Nothing
+      # todo can item slide/sidle out back to SFI
 
 - Name: Southern Fairy Island - Great Fairy Fountain
   Events:
@@ -1460,8 +1470,8 @@
   Locations:
       Ice Ring Isle - Interior Chest: Nothing
   Exits:
-      Ice Ring Isle: Iron_Boots or Grappling_Hook # need to open the chest for the warp to appear, can jump down and climb back with grapple or iron boots through the wind
-      Ice Ring Inner Cave: Iron_Boots
+      Ice Ring Isle: Iron_Boots or Grappling_Hook or Can_Itemslide # Iron_Boots or Grappling_Hook # need to open the chest for the warp to appear, can jump down and climb back with grapple or iron boots through the wind
+      Ice Ring Inner Cave: Iron_Boots or Can_Itemslide
 
 - Name: Ice Ring Inner Cave
   Locations:
@@ -1476,8 +1486,8 @@
   Locations:
       Forest Haven - Sunken Treasure: Chart_For_Island_41 and Can_Salvage_Sunken_Treasure
   Exits:
-      Forest Haven Interior: Grappling_Hook or Can_Fly_With_Deku_Leaf_Outdoors
-      Forest Haven Waterfall Cave: Grappling_Hook or Can_Fly_With_Deku_Leaf_Outdoors
+      Forest Haven Interior: Grappling_Hook or Can_Fly_With_Deku_Leaf_Outdoors or Can_Itemslide
+      Forest Haven Waterfall Cave: Grappling_Hook or Can_Fly_With_Deku_Leaf_Outdoors or Can_Itemslide
       Forest Haven Beedle Shop: Nothing
       Mailbox Checks: Nothing
       The Great Sea: Nothing
@@ -1546,6 +1556,7 @@
       Forest Haven South Isle: Can_Fly_With_Deku_Leaf_Outdoors and Can_Cut_Grass
       Forest Haven Nintendo Gallery Isle: Can_Fly_With_Deku_Leaf_Outdoors and Can_Cut_Grass
       Forest Haven Interior West Upper Ledge: Nothing
+      # i think we could add new exits to a lot of these ledges back to FH Isle but i dont think it neccessary for now
 
 - Name: Forest Haven Exterior South Ledge
   Island: Forest Haven
@@ -1560,6 +1571,7 @@
       Forest Haven - Chest on Small Island: Nothing
   Exits: # new exit
       Forest Haven Exterior South Ledge: Can_Itemslide
+      Forest Haven: Nothing
 
 - Name: FW Entrance Platform
   Island: Forest Haven
@@ -1599,6 +1611,7 @@
       Cliff Plateau Lookout Platform: Can_Sail_Away
       Mailbox Checks: Nothing
       The Great Sea: Nothing
+      Cliff Plateau Highest Isle: Can_Itemslide and Hookshot
 
 - Name: Cliff Plateau Cave
   Locations:
@@ -1633,7 +1646,7 @@
   Locations:
       Horseshoe Island - Sunken Treasure: Chart_For_Island_43 and Can_Salvage_Sunken_Treasure
   Exits:
-      Horseshoe Island Past Tentacles: Can_Fan_With_Deku_Leaf
+      Horseshoe Island Past Tentacles: Can_Fan_With_Deku_Leaf or Can_Itemslide
       Horseshoe Lookout Platforms: Can_Sail_Away
       The Great Sea: Nothing
 
@@ -1673,10 +1686,10 @@
       Outset Sturgeon's House: Nothing
       Outset Rose's House: Nothing
       Outset Rose's Attic: Nothing
-      Outset Mesa's House: Can_Play_SoP
+      Outset Mesa's House: Can_Play_SoP or Can_Roll_Clip
       Outset Near Bridge: Can_Cut_Down_Outset_Trees or Can_Itemslide
       Outset Near Savage Headstone: Hookshot
-      Outset Jabun's Cave: Bombs
+      Outset Jabun's Cave: Bombs or Can_Itemslide
       Outset Beedle Shop: Nothing
       Mailbox Checks: Nothing
       The Great Sea: Nothing
@@ -1722,7 +1735,7 @@
       Outset Island - Old Man Ho Ho: Nothing
   Exits:
       Outset Island: Nothing
-      Outset Across Bridge: Can_Fly_With_Deku_Leaf_Outdoors
+      Outset Across Bridge: Can_Fly_With_Deku_Leaf_Outdoors or Can_Itemslide
 
 - Name: Outset Across Bridge
   Island: Outset Island
@@ -1740,7 +1753,7 @@
 - Name: Outset Forest of Fairies
   Exits:
       Outset Across Bridge: Nothing
-      Outset Island - Great Fairy Fountain: Can_Move_Boulders or Can_Fly_With_Deku_Leaf_Outdoors # Can_Move_Boulders
+      Outset Island - Great Fairy Fountain: Can_Move_Boulders or Can_Fly_With_Deku_Leaf_Outdoors  # Can_Move_Boulders # or Can_Itemslide # Painful don't enable
 
 - Name: Outset Island - Great Fairy Fountain
   Events:
@@ -1846,7 +1859,7 @@
   Island: Headstone Island
   Exits:
       Headstone Island Submarine Interior: Nothing
-      Headstone Island: Can_Sail_Away
+      Headstone Island: Can_Sail_Away or Can_Itemslide # Can_Sail_Away
 
 - Name: Headstone Island Submarine Interior
   Locations:
@@ -1879,7 +1892,7 @@
       Angular Isles - Blue Chu Chu: Can_Get_Blue_Chu_Jelly_From_Blue_Chu_Chus
       Angular Isles - Sunken Treasure: Chart_For_Island_47 and Can_Salvage_Sunken_Treasure
   Exits:
-      Angular Isles Small Isle: Hookshot or Can_Fly_With_Deku_Leaf_Outdoors
+      Angular Isles Small Isle: Hookshot or Can_Fly_With_Deku_Leaf_Outdoors or Can_Itemslide
       The Great Sea: Nothing
 
 - Name: Angular Isles Small Isle
@@ -1900,7 +1913,7 @@
       Boating Course - Raft Chest: Nothing
       Boating Course - Sunken Treasure: Chart_For_Island_48 and Can_Salvage_Sunken_Treasure
   Exits:
-      Boating Course Small Isle: Hookshot or Can_Fly_With_Deku_Leaf_Outdoors
+      Boating Course Small Isle: Hookshot or Can_Fly_With_Deku_Leaf_Outdoors or Can_Itemslide
       The Great Sea: Nothing
 
 - Name: Boating Course Small Isle
@@ -1950,7 +1963,7 @@
 - Name: Ghost Ship Interior
   Hint Region: The Great Sea # This will have to be changed if we ever randomize the ghost ship entrance
   Locations:
-      Great Sea - Ghost Ship Chest: Can_Defeat_Wizzrobes and Can_Defeat_Poes and Can_Defeat_ReDeads and Can_Defeat_Stalfos
+      Great Sea - Ghost Ship Chest: (Can_Defeat_Wizzrobes and Can_Defeat_Poes and Can_Defeat_ReDeads and Can_Defeat_Stalfos) or Can_Itemslide or Can_Leaf_Pump
 
 - Name: DRC First Room
   Dungeon: Dragon Roost Cavern
@@ -1971,10 +1984,10 @@
       DRC Map Chest Room: Nothing
       DRC Hub Room Lower Area Near Dim Room: Can_Fly_With_Deku_Leaf_Indoors or Can_Move_Boulders
       DRC Switch Behind Wooden Barrier Room: count(2, Dragon_Roost_Cavern_Small_Key)
-      DRC Hub Room Mouth Area: Can_Fly_With_Deku_Leaf_Indoors or Ice_Arrows or
+      DRC Hub Room Mouth Area: Can_Fly_With_Deku_Leaf_Indoors or Ice_Arrows or Can_Itemslide or
           (can_access(DRC Hub Room Highest Platform) and Can_Cut_Down_Hanging_DRC_Platform)
       DRC First Room: Nothing
-      DRC Hub Room Highest Platform: Hookshot # new exit for DRC oddshot
+      DRC Hub Room Highest Platform: Heros_Bow or Hookshot # new exit for DRC oddshot
 
 - Name: DRC Hub Room Lower Area Near Dim Room
   Dungeon: Dragon Roost Cavern
@@ -2008,7 +2021,7 @@
 - Name: DRC Switch Behind Wooden Barrier Room
   Dungeon: Dragon Roost Cavern
   Locations:
-      Dragon Roost Cavern - Swing Across Lava Chest: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors
+      Dragon Roost Cavern - Swing Across Lava Chest: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
   Exits:
       DRC Hub Room Lower Area: Nothing
       DRC Outside Lower Area: Nothing
@@ -2035,7 +2048,7 @@
   Exits:
       DRC Dark Room Chest Area: count(4, Dragon_Roost_Cavern_Small_Key)
       DRC Rat Room: Nothing
-      DRC Outside Lower Area: Can_Fly_With_Deku_Leaf_Outdoors
+      DRC Outside Lower Area: Can_Fly_With_Deku_Leaf_Outdoors #todo check this
 
 - Name: DRC Dark Room Chest Area
   Dungeon: Dragon Roost Cavern
@@ -2084,7 +2097,7 @@
       Can Open DRC Gold Pot: Nothing # bomb flower
   Exits:
       DRC Mini Boss Upper Area: Nothing
-      DRC Boss Door Room Across Lava: Grappling_Hook or Hookshot or Can_Fly_With_Deku_Leaf_Indoors or Ice_Arrows
+      DRC Boss Door Room Across Lava: Grappling_Hook or Hookshot or Can_Fly_With_Deku_Leaf_Indoors or Ice_Arrows or Can_Itemslide
       DRC Magtail Lava Geyser Room: Nothing
       DRC First Room: "'Can_Open_DRC_Gold_Pot'"
       DRC Hub Room Upper Bridge: "'Can_Open_DRC_Blue_Pot' and 'Can_Open_DRC_Gold_Pot'" # either goes gold -> blue or gold -> green -> blue
@@ -2098,7 +2111,7 @@
       Dragon Roost Cavern - Boss Stairs Left Chest: Nothing
       Dragon Roost Cavern - Boss Stairs Right Pot: Nothing
   Exits:
-      DRC Boss Door Room Before Lava: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors or Ice_Arrows
+      DRC Boss Door Room Before Lava: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors or Ice_Arrows or Can_Itemslide
       Gohma Battle Arena: (Dragon_Roost_Cavern_Big_Key) or Can_Get_Chest_Storage
 
 - Name: DRC Mini Boss Upper Area
@@ -2107,13 +2120,14 @@
       Dragon Roost Cavern - Mini Boss: Nothing
   Exits:
       DRC Boss Door Room Before Lava: Nothing
-      DRC Mini Boss Lower Area: Grappling_Hook or Can_Fly_With_Deku_Leaf_Outdoors
+      DRC Mini Boss Lower Area: Grappling_Hook or Can_Fly_With_Deku_Leaf_Outdoors or Can_Itemslide # todo verify itemsliding down works
+
 
 - Name: DRC Mini Boss Lower Area
   Dungeon: Dragon Roost Cavern
   Exits:
       DRC Rope Bridge Underpass Room: Nothing
-      DRC Mini Boss Upper Area: Grappling_Hook
+      DRC Mini Boss Upper Area: Grappling_Hook or Can_Itemslide # Grappling_Hook
 
 - Name: DRC Rope Bridge Underpass Room
   Dungeon: Dragon Roost Cavern
@@ -2127,13 +2141,13 @@
   Dungeon: Dragon Roost Cavern
   Exits:
       DRC Rope Bridge Underpass Room: Nothing
-      DRC Hub Room Upper Bridge: Can_Fly_With_Deku_Leaf_Indoors
+      DRC Hub Room Upper Bridge: Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide # Can_Fly_With_Deku_Leaf_Indoors
       DRC Hub Room Lower Area: Nothing
 
 - Name: DRC Hub Room Mouth Area
   Dungeon: Dragon Roost Cavern
   Exits:
-      DRC Hub Room Lower Area: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors
+      DRC Hub Room Lower Area: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
       DRC Before Big Key Room Upper: Grappling_Hook
 
 - Name: DRC Before Big Key Room Upper
@@ -2142,13 +2156,13 @@
       Dragon Roost Cavern - Tingle Statue Chest: Bombs and (Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors)
   Exits:
       DRC Hub Room Mouth Area: Nothing
-      DRC Before Big Key Room Lower: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors
+      DRC Before Big Key Room Lower: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
 
 - Name: DRC Before Big Key Room Lower
   Dungeon: Dragon Roost Cavern
   Exits:
       DRC Big Key Room: Nothing
-      DRC Before Big Key Room Upper: Grappling_Hook
+      DRC Before Big Key Room Upper: Grappling_Hook or Can_Itemslide # todo p sure this works
 
 - Name: DRC Big Key Room
   Dungeon: Dragon Roost Cavern
@@ -2205,14 +2219,14 @@
 - Name: FW Short Cable Ride Room South Side
   Dungeon: Forbidden Woods
   Exits:
-      FW Short Cable Ride Room North Side: Can_Fan_With_Deku_Leaf
+      FW Short Cable Ride Room North Side: Can_Fan_With_Deku_Leaf or Can_Itemslide
       FW Second Room North Platform: Nothing
 
 - Name: FW Short Cable Ride Room North Side
   Dungeon: Forbidden Woods
   Exits:
       FW Hole in Tree Room Near Lower Door: Nothing
-      FW Short Cable Ride Room South Side: Can_Fan_With_Deku_Leaf
+      FW Short Cable Ride Room South Side: Can_Fan_With_Deku_Leaf or Can_Itemslide
 
 - Name: FW Hole in Tree Room Near Lower Door
   Dungeon: Forbidden Woods
@@ -2223,7 +2237,7 @@
 - Name: FW Hole in Tree Room Near Upper Door
   Dungeon: Forbidden Woods
   Locations:
-      Forbidden Woods - Hole In Tree Chest: Can_Fly_With_Deku_Leaf_Indoors # you can drop down and do this with no extra items but it's obscure
+      Forbidden Woods - Hole In Tree Chest: Can_Fly_With_Deku_Leaf_Indoors # you can drop down and do this with no extra items but it's obscure # todo yea could make this nothing
   Exits:
       FW Vine Circle Hallway: Can_Defeat_Boko_Babas
       FW Hole in Tree Room Near Lower Door: Nothing
@@ -2232,12 +2246,12 @@
   Dungeon: Forbidden Woods
   Exits:
       FW Hole in Tree Room Near Upper Door: Nothing
-      FW Hub Room Third Floor Lower: Can_Fan_With_Deku_Leaf or Can_Defeat_Door_Flowers
+      FW Hub Room Third Floor Lower: (Can_Fan_With_Deku_Leaf or Can_Defeat_Door_Flowers) or Can_Itemslide # obsure probably, no way you get to this point w/o these reqs anyways
 
 - Name: FW Hub Room Third Floor Lower
   Dungeon: Forbidden Woods
   Exits:
-      FW Hub Room Third Floor Upper: Grappling_Hook
+      FW Hub Room Third Floor Upper: Grappling_Hook or (Can_Itemslide and Can_Get_Chest_Storage)
       FW Hub Room Second Floor: Nothing
       FW Vine Circle Hallway: Nothing
 
@@ -2246,7 +2260,7 @@
   Exits:
       FW Hub Room Third Floor Upper West Platform: Can_Fly_With_Deku_Leaf_Indoors # if you cut down the blue flower before traveling here you need leaf
       FW Cable Ride Above Poison Water Room Lower South: count(1, Forbidden_Woods_Small_Key)
-      FW Hub Room Third Floor Lower: Grappling_Hook # can not jump to here if you cut down the blue flower first
+      FW Hub Room Third Floor Lower: Grappling_Hook or Can_Itemslide # can not jump to here if you cut down the blue flower first
       FW Hub Room Second Floor: Nothing
 
 - Name: FW Hub Room Third Floor Upper West Platform # by Morth Pit Hallway
@@ -2255,7 +2269,7 @@
       Can Open FW Blue Pot: Can_Destroy_Leaf_Piles
   Exits:
       FW Morth Pit Hallway: Can_Defeat_Door_Flowers # can't bring the nut over if the flower is cut down
-      FW Hub Room Third Floor Upper: Can_Fly_With_Deku_Leaf_Indoors # if you cut down the blue flower you need leaf
+      FW Hub Room Third Floor Upper: Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide # if you cut down the blue flower you need leaf
       FW Hub Room Third Floor Lower: Nothing # can jump from warp pot ledge
       FW Hub Room Second Floor: Nothing
       FW Hub Room First Floor: Boomerang
@@ -2282,7 +2296,7 @@
 - Name: FW Cable Ride Above Poison Water Room Lower South
   Dungeon: Forbidden Woods
   Exits:
-      FW Cable Ride Above Poison Water Room Lower North: Can_Fly_With_Deku_Leaf_Indoors
+      FW Cable Ride Above Poison Water Room Lower North: Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide # Can_Fly_With_Deku_Leaf_Indoors
       FW Hub Room Third Floor Upper: Nothing
 
 - Name: FW Cable Ride Above Poison Water Room Lower North
@@ -2294,22 +2308,22 @@
 - Name: FW Tall Room Before Mini Boss
   Dungeon: Forbidden Woods
   Locations:
-      Forbidden Woods - Tall Room Chest: Grappling_Hook
+      Forbidden Woods - Tall Room Chest: Grappling_Hook or (Can_Get_Chest_Storage_Obscure and Can_Fly_With_Deku_Leaf_Indoors) # need to get chest storage way early on, don't love this for random entrances, chest storage from past seed hanging by vine 
   Exits:
       FW Mini Boss Room: Nothing
-      FW Cable Ride Above Poison Water Room Upper North: Can_Defeat_Door_Flowers
+      FW Cable Ride Above Poison Water Room Upper North: Can_Defeat_Door_Flowers or Can_Itemslide # should work todo check
       FW Cable Ride Above Poison Water Room Lower North: Nothing
 
 - Name: FW Mini Boss Room
   Locations:
       Forbidden Woods - Mothula Mini Boss Chest: Can_Defeat_Winged_Mothulas
   Exits:
-      FW Tall Room Before Mini Boss: Boomerang
+      FW Tall Room Before Mini Boss: Boomerang or Heros_Bow # Boomerang
 
 - Name: FW Cable Ride Above Poison Water Room Upper North
   Dungeon: Forbidden Woods
   Exits:
-      FW Cable Ride Above Poison Water Room Upper South: Can_Destroy_Hanging_Seeds and (Hookshot or Can_Fly_With_Deku_Leaf_Indoors)
+      FW Cable Ride Above Poison Water Room Upper South: (Can_Destroy_Hanging_Seeds and (Hookshot or Can_Fly_With_Deku_Leaf_Indoors)) or Can_Itemslide
       FW Cable Ride Above Poison Water Room Lower North: Nothing # drop down onto the moving platform below
       FW Tall Room Before Mini Boss: Nothing
 
@@ -2318,7 +2332,7 @@
   Locations:
       Forbidden Woods - Past Seeds Hanging by Vines Chest: Nothing
   Exits:
-      FW Cable Ride Above Poison Water Room Upper North: Can_Fly_With_Deku_Leaf_Indoors and Can_Destroy_Hanging_Seeds
+      FW Cable Ride Above Poison Water Room Upper North: (Can_Fly_With_Deku_Leaf_Indoors and Can_Destroy_Hanging_Seeds) or Can_Itemslide
       FW Cable Ride Above Poison Water Room Lower South: Nothing
       FW Hub Room Highest Platform: Nothing
 
@@ -2334,12 +2348,13 @@
   Exits:
       FW Mothula Hallway: Can_Defeat_Door_Flowers or can_access(FW Hub Room Third Floor Upper)
       FW Hub Room Third Floor Lower: Can_Fly_With_Deku_Leaf_Indoors
+      FW Hub Room First Floor: Can_Itemslide # itemslide clip to the bottom
 
 - Name: FW Hub Room First Floor
   Dungeon: Forbidden Woods
   Exits:
       FW Forked Hallway Lower: Nothing
-      FW Hub Room Second Floor: Can_Fly_With_Deku_Leaf_Indoors
+      FW Hub Room Second Floor: Can_Fly_With_Deku_Leaf_Indoors and Boomerang  # Can_Fly_With_Deku_Leaf_Indoors # needs to have been cut down to fly back up
 
 - Name: FW Forked Hallway Lower
   Dungeon: Forbidden Woods
@@ -2352,7 +2367,7 @@
   Locations:
       Forbidden Woods - Chest Across Hanging Flower: Nothing # can reload the room after cutting down the flower
   Exits:
-      FW Poison River Room After River: (Boomerang or Heros_Sword) and Can_Fan_With_Deku_Leaf # can spin attack the vines on the flower
+      FW Poison River Room After River: ((Boomerang or Heros_Sword) and Can_Fan_With_Deku_Leaf) or Can_Itemslide # can spin attack the vines on the flower
       FW Tingle Chest Room: (Boomerang or Heros_Sword) or Can_Destroy_Wooden_Barriers
       FW Forked Hallway Lower: Nothing
 
@@ -2366,14 +2381,14 @@
   Dungeon: Forbidden Woods
   Locations:
       Forbidden Woods - Tingle Statue Chest: Bombs # can also use the bomb flower but it's pretty obscure so not in logic
-      Forbidden Woods - Locked Tree Trunk Chest: Bombs or Fire_Arrows or (Can_Defeat_Boko_Babas_At_Range and Can_Fly_With_Deku_Leaf_Indoors)
+      Forbidden Woods - Locked Tree Trunk Chest: Bombs or Fire_Arrows or (Can_Defeat_Boko_Babas_At_Range and Can_Fly_With_Deku_Leaf_Indoors) or Boomerang # can snipe with boomerang based on position # Bombs or Fire_Arrows or (Can_Defeat_Boko_Babas_At_Range and Can_Fly_With_Deku_Leaf_Indoors)
   Exits:
       FW Poison River Room Before River: Nothing
 
 - Name: FW Big Key Room
   Dungeon: Forbidden Woods
   Locations:
-      Forbidden Woods - Big Key Chest: Boomerang
+      Forbidden Woods - Big Key Chest: Boomerang or Hookshot or Can_Itemslide
   Exits:
       FW Big Key Room Higher Ledge: Grappling_Hook
 
@@ -2403,7 +2418,7 @@
       Can Open FW Gold Pot: Nothing # can throw a seed at it
       Can Get Fairies: Nothing
   Exits:
-      Kalle Demos Battle Arena: Forbidden_Woods_Big_Key
+      Kalle Demos Battle Arena: Forbidden_Woods_Big_Key or (Can_Itemslide and Can_Leaf_Pump) # Forbidden_Woods_Big_Key
       FW Mothula Hallway: Nothing
       FW First Room: "'Can_Open_FW_Gold_Pot'"
       FW Hub Room Third Floor Upper West Platform: "'Can_Open_FW_Blue_Pot' and 'Can_Open_FW_Gold_Pot'" # either goes gold -> blue or gold -> green -> blue
@@ -2411,21 +2426,21 @@
 - Name: Kalle Demos Battle Arena
   Boss Room: Forbidden Woods
   Events:
-      Kalle Demos Defeated: Can_Defeat_Kalle_Demos
+      Kalle Demos Defeated: Can_Defeat_Kalle_Demos or Can_Defeat_Kalle_Demos_Epicly
   Locations:
-      Forbidden Woods - Kalle Demos Heart Container: Can_Defeat_Kalle_Demos
+      Forbidden Woods - Kalle Demos Heart Container: Can_Defeat_Kalle_Demos or Can_Defeat_Kalle_Demos_Epicly
   Exits:
-      FW Boss Door Room: Can_Defeat_Kalle_Demos
+      FW Boss Door Room: Can_Defeat_Kalle_Demos or Can_Defeat_Kalle_Demos_Epicly
 
 - Name: TOTG Entrance Room
   Dungeon: Tower of the Gods
   Dungeon Starting Room: Tower of the Gods
   Exits:
       TOTG East Golden Statue Room: Nothing
-      TOTG Entrance Room Past Gate: "'Can_Bring_East_Golden_Statue'"
+      TOTG Entrance Room Past Gate: "'Can_Bring_East_Golden_Statue' or Can_Roll_Clip"
       TOTG Entrance Room past Bombable Walls: Bombs
       TOTG Map Chest Room: Nothing
-      TOTG Entrance Room Past Waterfall: "'Can_Bring_West_Golden_Statue'"
+      TOTG Entrance Room Past Waterfall: "'Can_Bring_West_Golden_Statue' or Can_Itemslide or (Can_Fly_With_Deku_Leaf_Indoors and Can_Roll_Clip)"
       Tower of the Gods Sector: Nothing
 
 - Name: TOTG East Golden Statue Room
@@ -2484,7 +2499,7 @@
   Dungeon: Tower of the Gods
   Exits:
       TOTG Rising Platforms Room: Nothing
-      TOTG Entrance Room: "'Can Bring West Golden Statue'"
+      TOTG Entrance Room: "'Can_Bring_West_Golden_Statue' or Can_Itemslide"
 
 - Name: TOTG Rising Platforms Room
   Dungeon: Tower of the Gods
@@ -2502,7 +2517,7 @@
       TOTG East Servant Corridor: Nothing
       TOTG West Servant Corridor Near Hub Room: Nothing
       TOTG North Servant Corridor: Nothing
-      TOTG Big Key Room: Wind_Waker and 'Can_Bring_East_Servant_of_the_Tower' and 'Can_Bring_West_Servant_of_the_Tower' and 'Can_Bring_North_Servant_of_the_Tower'
+      TOTG Big Key Room: Wind_Waker and 'Can_Bring_East_Servant_of_the_Tower' and ('Can_Bring_West_Servant_of_the_Tower' or 'Can_Bring_West_Servant_of_the_Tower_Epicly') and ('Can_Bring_North_Servant_of_the_Tower' or 'Can_Bring_North_Servant_of_the_Tower_Epicly')
       TOTG Rising Platforms Room: Nothing
 
 - Name: TOTG East Servant Corridor
@@ -2531,37 +2546,39 @@
   Events:
       Can Bring Statue to TOTG Miniboss Switch: Heros_Bow # Can bring an Armos statue across the moving platforms
   Exits:
-      TOTG West Servant Corridor Near West Servant Room: Heros_Bow or Grappling_Hook
-      TOTG West Servant Corridor Near Mini Boss Room: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors
+      TOTG West Servant Corridor Near West Servant Room: Heros_Bow or Grappling_Hook or Can_Itemslide
+      TOTG West Servant Corridor Near Mini Boss Room: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
       TOTG Hub Room: Nothing
 
 - Name: TOTG West Servant Corridor Near Mini Boss Room
   Dungeon: Tower of the Gods
   Exits:
-      TOTG Mini Boss Room: "'Can_Bring_Statue_to_TOTG_Miniboss_Switch'"
-      TOTG West Servant Corridor Near Hub Room: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors
-      TOTG West Servant Corridor Near West Servant Room: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors
+      TOTG Mini Boss Room: "'Can_Bring_Statue_to_TOTG_Miniboss_Switch' or 'Can_Bring_Statue_to_TOTG_Miniboss_Switch_Epicly"
+      TOTG West Servant Corridor Near Hub Room: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
+      TOTG West Servant Corridor Near West Servant Room: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
 
 - Name: TOTG West Servant Corridor Near West Servant Room
   Dungeon: Tower of the Gods
   Exits:
       TOTG West Servant Room Near Corridor: Nothing
-      TOTG West Servant Corridor Near Mini Boss Room: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors
-      TOTG West Servant Corridor Near Hub Room: Heros_Bow or Grappling_Hook
+      TOTG West Servant Corridor Near Mini Boss Room: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
+      TOTG West Servant Corridor Near Hub Room: Heros_Bow or Grappling_Hook or Can_Itemslide
 
 - Name: TOTG West Servant Room Near Corridor
   Dungeon: Tower of the Gods
   Exits:
       TOTG West Servant Corridor Near West Servant Room: Nothing
-      TOTG West Servant Room Near Statue: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors
+      TOTG West Servant Room Near Statue: Grappling_Hook or Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
 
 - Name: TOTG West Servant Room Near Statue
   Dungeon: Tower of the Gods
   Events:
       Can Bring Statue to TOTG Miniboss Switch: Can_Play_CM # Only need to get back out of the room with the statue
+      Can Bring Statue to TOTG Miniboss Switch Epicly: Nothing # can sidehop along seam
       Can Bring West Servant of the Tower: Can_Play_CM and Heros_Bow # Also need bow to start the moving platforms and carry statue across
+      Can Bring West Servant of the Tower Epicly: Heros_Bow # just need bow to start moving platforms
   Exits:
-      TOTG West Servant Room Near Corridor: Can_Play_CM
+      TOTG West Servant Room Near Corridor: Can_Play_CM or Grappling_Hook or Can_Itemslide # todo should also be able to leaf/grapple/itemslide
 
 - Name: TOTG Mini Boss Room
   Locations:
@@ -2574,13 +2591,13 @@
   Exits:
       TOTG Hub Room: Nothing
       TOTG Many Moving Platforms Room: Nothing
-      TOTG North Servant Room: count(2, Tower_of_the_Gods_Small_Key)
-      TOTG North Servant Corridor Past Bombable Wall: Bombs
+      TOTG North Servant Room: count(2, Tower_of_the_Gods_Small_Key) #todo must be a workaround here
+      TOTG North Servant Corridor Past Bombable Wall: Bombs # or (Wind_Waker and Can_Fly_With_Deku_Leaf_Indoors) wind waker to mess up scale?
 
 - Name: TOTG Many Moving Platforms Room
   Dungeon: Tower of the Gods
   Locations:
-      Tower of the Gods - Floating Platforms Room Lower Chest: Heros_Bow or Can_Fly_With_Deku_Leaf_Indoors
+      Tower of the Gods - Floating Platforms Room Lower Chest: Heros_Bow or Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
       Tower of the Gods - Floating Platforms Room Upper Chest: Heros_Bow
   Exits:
       TOTG North Servant Corridor: Nothing
@@ -2601,15 +2618,16 @@
 - Name: TOTG North Servant Room
   Dungeon: Tower of the Gods
   Exits:
-      TOTG North Servant Room Past Lasers: Can_Fly_With_Deku_Leaf_Indoors
+      TOTG North Servant Room Past Lasers: Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
       TOTG North Servant Corridor: Nothing
 
 - Name: TOTG North Servant Room Past Lasers
   Dungeon: Tower of the Gods
   Events:
       Can Bring North Servant of the Tower: Can_Play_CM
+      Can Bring North Servant of the Tower Epicly: Can_Itemslide
   Exits:
-      TOTG North Servant Room: Can_Play_CM
+      TOTG North Servant Room: Can_Play_CM or Can_Itemslide
 
 - Name: TOTG Big Key Room
   Dungeon: Tower of the Gods
@@ -2626,7 +2644,7 @@
       Can Get Fairies: Nothing
   Exits:
       TOTG Big Key Room: Nothing
-      Gohdan Battle Arena: Tower_of_the_Gods_Big_Key
+      Gohdan Battle Arena: Tower_of_the_Gods_Big_Key or Can_Get_Chest_Storage_Obscure
 
 - Name: Gohdan Battle Arena
   Boss Room: Tower of the Gods
@@ -2666,9 +2684,9 @@
 - Name: ET Giant Statue Room
   Dungeon: Earth Temple
   Exits:
-      ET First Crypt: Skull_Hammer and Can_Play_CM
+      ET First Crypt: Skull_Hammer # Skull_Hammer and Can_Play_CM
       ET Chu Chus and Switches Room: count(2, Earth_Temple_Small_Key)
-      ET Giant Statue Room Under Statue: Can_Play_CM and Can_Get_Chest_Storage and Can_Fly_With_Deku_Leaf_Indoors # (Can_Play_CM and Can_Aim_Mirror_Shield) -- uncommented only glitch logic for cleaner tooltip
+      ET Giant Statue Room Under Statue: (Can_Play_CM and Can_Aim_Mirror_Shield) or (Can_Itemslide and Can_Fly_With_Deku_Leaf_Indoors and Can_Roll_Clip) # old glitched logic for challenge 0.1 Can_Play_CM and Can_Get_Chest_Storage and Can_Fly_With_Deku_Leaf_Indoors
       ET Map Chest Room: Nothing
 
 - Name: ET First Crypt
@@ -2689,7 +2707,7 @@
 - Name: ET Chu Chus and Switches Room
   Dungeon: Earth Temple
   Exits:
-      ET Block Push Corridor: Power_Bracelets and Fire_Arrows
+      ET Block Push Corridor: (Power_Bracelets and Fire_Arrows) or (Power_Bracelets and Can_Fly_With_Deku_Leaf_Indoors) # Power_Bracelets and Fire_Arrows
       ET Giant Statue Room: Nothing
 
 - Name: ET Block Push Corridor
@@ -2722,13 +2740,13 @@
 - Name: ET Second Crypt
   Dungeon: Earth Temple
   Locations:
-      Earth Temple - Second Crypt Casket: Can_Defeat_ReDeads
+      Earth Temple - Second Crypt Casket: Can_Defeat_ReDeads or (Can_Fly_With_Deku_Leaf_Indoors and (Boomerang or Hookshot)) # Can_Defeat_ReDeads
   Exits:
       ET Two Moblins and Poes Room Past Stairs: Can_Defeat_ReDeads
 
 - Name: ET Mini Boss Room
   Exits:
-      ET Mini Boss Room Upper Ledge: Can_Defeat_Stalfos or Hookshot
+      ET Mini Boss Room Upper Ledge: Can_Defeat_Stalfos or Hookshot or Can_Leaf_Pump
       ET Two Moblins and Poes Room Past Stairs: Can_Aim_Mirror_Shield and can_access(ET Mini Boss Room Upper Ledge)
 
 - Name: ET Mini Boss Room Upper Ledge
@@ -2758,7 +2776,7 @@
   Locations:
       Earth Temple - Tingle Statue Chest: Bombs
   Exits:
-      ET Basement Hub Room: Can_Play_EGL
+      ET Basement Hub Room: Can_Play_EGL or (Can_Roll_Clip and Can_Leaf_Pump)
       ET Giant Statue Room Under Statue: Nothing
 
 - Name: ET Basement Hub Room
@@ -2766,7 +2784,7 @@
   Exits:
       ET Foggy Floormasters Room: Can_Play_CM or Can_Aim_Mirror_Shield
       ET Poes and Bubbles Room Behind Grating: Can_Play_CM or Can_Aim_Mirror_Shield
-      ET Basement Hub Room Upper Ledge: Can_Play_CM or Can_Aim_Mirror_Shield
+      ET Basement Hub Room Upper Ledge: (Can_Play_CM or Can_Aim_Mirror_Shield) or Can_Leaf_Pump
       ET Hanging Bridge Room: Nothing
 
 - Name: ET Foggy Floormasters Room
@@ -2781,10 +2799,12 @@
   Dungeon: Earth Temple
   Events:
       Can Light Up ET Poes and Bubbles Room: Skull_Hammer and Power_Bracelets
+      Can Break Stone Statue: Can_Fly_With_Deku_Leaf_Indoors and Skull_Hammer and Mirror_Shield # new event
   Locations:
       Earth Temple - Near Hammer Button Behind Curtain: Fire_Arrows and (Hookshot or Boomerang)
   Exits:
       ET Basement Hub Room: Nothing
+      ET Poes and Bubbles Room: Can_Roll_Clip and Can_Fly_With_Deku_Leaf_Indoors # new exit
 
 - Name: ET Basement Hub Room Upper Ledge
   Dungeon: Earth Temple
@@ -2796,7 +2816,7 @@
   Dungeon: Earth Temple
   Exits:
       ET Basement Hub Room Upper Ledge: Nothing
-      ET Third Crypt: Can_Play_CM and Can_Aim_Mirror_Shield and 'Can_Light_Up_ET_Poes_and_Bubbles_Room'
+      ET Third Crypt: (Can_Play_CM and Can_Aim_Mirror_Shield and 'Can_Light_Up_ET_Poes_and_Bubbles_Room') or 'Can_Break_Stone_Statue'
 
 - Name: ET Third Crypt
   Dungeon: Earth Temple
@@ -2804,16 +2824,16 @@
       Earth Temple - Third Crypt Chest: Nothing
   Exits:
       ET Poes and Bubbles Room: Nothing
-      ET Boss Door Room: Can_Play_EGL
+      ET Boss Door Room: Can_Play_EGL or (Can_Itemslide and Can_Fly_Roll_Clip)
 
 - Name: ET Boss Door Room
   Dungeon: Earth Temple
   Events:
-      Can Open ET Gold Pot: Bombs
+      Can Open ET Gold Pot: Bombs # or (Power Bracelets and Can_Get_Chest_Storage)
       Can Get Fairies: Nothing
   Exits:
       ET Many Mirrors Room: Nothing
-      Jalhalla Battle Arena: Earth_Temple_Big_Key
+      Jalhalla Battle Arena: Earth_Temple_Big_Key or (Can_Itemslide and Can_Roll_Clip and Can_Fly_With_Deku_Leaf_Indoors)
       ET Third Crypt: Nothing
       ET Map Chest Room: "'Can_Open_ET_Green_Pot' and 'Can_Open_ET_Gold_Pot'"
       ET Block Push Corridor: "'Can_Open_ET_Blue_Pot' and 'Can_Open_ET_Gold_Pot'" # either goes gold -> blue or gold -> green -> blue
@@ -2821,11 +2841,11 @@
 - Name: ET Many Mirrors Room
   Dungeon: Earth Temple
   Locations:
-      Earth Temple - Many Mirrors Room Right Chest: Can_Play_CM
-      Earth Temple - Many Mirrors Room Left Chest: Power_Bracelets and Can_Play_CM and Can_Aim_Mirror_Shield
+      Earth Temple - Many Mirrors Room Right Chest: Can_Play_CM or Can_Itemslide # Can_Play_CM # itemslide to one of the poles and activate yourself
+      Earth Temple - Many Mirrors Room Left Chest: Can_Play_CM and Can_Aim_Mirror_Shield # Power_Bracelets and Can_Play_CM and Can_Aim_Mirror_Shield
   Exits:
-      ET Big Key Chest Room: Power_Bracelets and Can_Play_CM and Can_Aim_Mirror_Shield
-      ET Many Mirrors Room Past Light Wall: Power_Bracelets and Can_Play_CM and Can_Aim_Mirror_Shield
+      ET Big Key Chest Room: (Power_Bracelets and Can_Play_CM and Can_Aim_Mirror_Shield) or Can_Fly_Roll_Clip
+      ET Many Mirrors Room Past Light Wall: (Power_Bracelets and Can_Play_CM and Can_Aim_Mirror_Shield) or can_access(ET Big Key Chest Room)
       ET Boss Door Room: Nothing
 
 - Name: ET Big Key Chest Room
@@ -2870,7 +2890,7 @@
   Exits:
       WT First Warp Pot Room Lower Area: Nothing
       WT First Room: Nothing
-      WT First Warp Pot Room Back: Can_Itemslide # new exit
+      WT First Warp Pot Room Back: Can_Itemslide or Can_Leaf_Pump # new exit
 
 - Name: WT First Warp Pot Room Lower Area
   Dungeon: Wind Temple
@@ -2941,7 +2961,7 @@
       WT Hub Room Second Floor East Platform: Can_Fly_With_Deku_Leaf_Indoors and 'Can_Start_WT_Hub_Room_Fan'
       WT Hub Room Basement Above Fan: "'Can_Open_WT_Hub_Room_1F_Grate' or (Hookshot and Can_Fly_With_Deku_Leaf_Indoors)"
 
-- Name: WT Hub Room First Floor West Platform
+- Name: WT Hub Room First Floor West Platform # entrance from Makar's Capture Room
   Dungeon: Wind Temple
   Exits:
       WT Hub Room Above First Floor Grate: Nothing
@@ -2949,8 +2969,10 @@
       WT Hub Room Compass Chest Platform: "'Can_Open_WT_Hub_Room_1F_Grate'" # can drop down onto the platform
       WT Makar Capture Room: Nothing
 
-- Name: WT Hub Room First Floor North Platform
+- Name: WT Hub Room First Floor North Platform # left after leaving Makar's capture room
   Dungeon: Wind Temple
+  Events:
+      Can Open WT Blue Pot: Fire_Arrows # new event, can be show from lower
   Locations:
       Wind Temple - Behind Stone Head Chest: Hookshot and Iron_Boots
   Exits:
@@ -2968,7 +2990,7 @@
   Dungeon: Wind Temple
   Exits:
       WT Hub Room First Floor East Platform: Nothing
-      WT Song Stone and Turn Platform Near Cyclones Room: Iron_Boots and Can_Fan_With_Deku_Leaf
+      WT Song Stone and Turn Platform Near Cyclones Room: Can_Fan_With_Deku_Leaf # can fan and backflip back to the top of the room # Iron_Boots and Can_Fan_With_Deku_Leaf
 
 - Name: WT Song Stone and Turn Platform Near Cyclones Room
   Dungeon: Wind Temple
@@ -2976,7 +2998,7 @@
       Wind Temple - Left Alcove Chest: Nothing
   Exits:
       WT Many Cyclones Room East Side: Nothing
-      WT Big Key Chest Room: Can_Play_WGA
+      WT Big Key Chest Room: Can_Play_WGA or (Can_Itemslide and Can_Roll_Clip)
       WT Song Stone and Turn Platform Near Hub Room: Can_Fan_With_Deku_Leaf
 
 - Name: WT Big Key Chest Room
@@ -3030,10 +3052,10 @@
       Can Start WT Hub Room Fan: Can_Play_CM
   Exits:
       WT Cracked Floors Room: Nothing
-      WT Mini Boss Room: count(2, Wind_Temple_Small_Key)
+      WT Mini Boss Room: (count(2, Wind_Temple_Small_Key)) or (Hookshot and Can_Fly_With_Deku_Leaf_Indoors and Can_Roll_Clip) # can roll clip # count(2, Wind_Temple_Small_Key)
       WT Hub Room Compass Chest Platform: (Hookshot or 'Can_Start_WT_Hub_Room_Fan') and Can_Fly_With_Deku_Leaf_Indoors
       WT Hub Room Above First Floor Grate: "'Can_Open_WT_Hub_Room_1F_Grate' and 'Can_Start_WT_Hub_Room_Fan'"
-      WT Hub Room Basement Below Fan: "'Can_Open_WT_Hub_Room_Fan_Grate' or (Hookshot and Can_Fly_With_Deku_Leaf_Indoors)" #'Can_Open_WT_Hub_Room_Fan_Grate'"
+      WT Hub Room Basement Below Fan: "'Can_Open_WT_Hub_Room_Fan_Grate' or (Hookshot and Can_Fly_With_Deku_Leaf_Indoors)" # 'Can_Open_WT_Hub_Room_Fan_Grate'"
 
 - Name: WT Mini Boss Room
   Locations:
@@ -3044,8 +3066,8 @@
 - Name: WT Cracked Floors Room
   Dungeon: Wind Temple
   Locations:
-      Wind Temple - Spike Wall Room First Chest: Iron_Boots or Can_Fly_With_Deku_Leaf_Indoors # Iron_Boots
-      Wind Temple - Spike Wall Room Destroy Floors: Iron_Boots and Can_Defeat_Floormasters
+      Wind Temple - Spike Wall Room First Chest: Iron_Boots or Can_Fly_With_Deku_Leaf_Indoors or Bombs # Iron_Boots
+      Wind Temple - Spike Wall Room Destroy Floors: (Iron_Boots and Can_Defeat_Floormasters) or (Iron_Boots and (Can_Fly_With_Deku_Leaf_Indoors or Bombs)) # Iron_Boots and Can_Defeat_Floormasters
   Exits:
       WT Hub Room Basement Above Fan: Nothing
 
@@ -3114,7 +3136,7 @@
 - Name: WT Long Narrow Room
   Dungeon: Wind Temple
   Exits:
-      WT Long Narrow Room Past Gap: Hookshot and Can_Play_CM
+      WT Long Narrow Room Past Gap: (Hookshot and Can_Play_CM) or Can_Itemslide
       WT Tall Basement Room: Nothing
 
 - Name: WT Long Narrow Room Past Gap
@@ -3126,7 +3148,7 @@
 - Name: WT Three Big Fans Room
   Dungeon: Wind Temple
   Exits:
-      WT Three Big Fans Room Past Song Stone: (Iron_Boots and Can_Play_WGA) or Can_Itemslide # Iron_Boots and Can_Play_WGA
+      WT Three Big Fans Room Past Song Stone: Iron_Boots or Can_Itemslide # Iron_Boots and Can_Play_WGA
       WT Long Narrow Room Past Gap: Nothing
 
 - Name: WT Three Big Fans Room Past Song Stone
@@ -3172,20 +3194,20 @@
 - Name: Hyrule Castle Bridge
   Hint Region: Hyrule
   Exits:
-      Hyrule Field Path: Can_Get_Past_Hyrule_Barrier
+      Hyrule Field Path: Can_Get_Past_Hyrule_Barrier # or Can_Itemslide
       Hyrule Castle Interior: Nothing
 
 - Name: Hyrule Field Path
   Hint Region: Hyrule
   Exits:
-      Hyrule Field Path Past Broken Bridge: Hookshot or Can_Fly_With_Deku_Leaf_Indoors
+      Hyrule Field Path Past Broken Bridge: Hookshot or Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
       Hyrule Castle Bridge: Nothing
 
 - Name: Hyrule Field Path Past Broken Bridge
   Hint Region: Hyrule
   Exits:
       Ganon's Tower Trials Hub: Nothing
-      Hyrule Field Path: Hookshot or Can_Fly_With_Deku_Leaf_Indoors
+      Hyrule Field Path: Hookshot or Can_Fly_With_Deku_Leaf_Indoors or Can_Itemslide
 
 - Name: Ganon's Tower Trials Hub
   Hint Region: Ganon's Tower
@@ -3215,7 +3237,7 @@
 - Name: Ganon's Tower FW Trial
   Hint Region: Ganon's Tower
   Exits:
-      Ganon's Tower Kalle Demos Refight: Can_Fan_With_Deku_Leaf and Can_Fly_With_Deku_Leaf_Indoors
+      Ganon's Tower Kalle Demos Refight: (Can_Fan_With_Deku_Leaf and Can_Fly_With_Deku_Leaf_Indoors) or Can_Itemslide
       Ganon's Tower Trials Hub: Nothing
 
 - Name: Ganon's Tower Kalle Demos Refight
@@ -3264,7 +3286,7 @@
   Locations:
       Ganon's Tower - Maze Chest: Can_Defeat_Phantom_Ganon
   Events:
-      Can Farm Lots Of Rupees: Can_Defeat_Phantom_Ganon # defeat phg to reach maze rooms with rupees
+      Can Farm Lots Of Rupees: Can_Defeat_Phantom_Ganon or Can_Do_Speedrun_Strat # don't need to defeat phg to get to maze if you know pattern # defeat phg to reach maze rooms with rupees
   Exits:
       Ganon's Tower Middle Hub Room: Can_Defeat_Phantom_Ganon
 
@@ -3290,13 +3312,13 @@
   Hint Region: Ganon's Tower
   Exits:
       Ganon's Tower Puppet Ganon Boss Arena: Nothing
-      Ganon's Tower Puppet Ganon Boss Room Pot Platform: Grappling_Hook
+      Ganon's Tower Puppet Ganon Boss Room Pot Platform: Grappling_Hook or Can_Do_Speedrun_Strat # backflip up chains
 
 - Name: Ganon's Tower Puppet Ganon Boss Room Pot Platform
   Hint Region: Ganon's Tower
   Exits:
       Ganon's Tower Puppet Ganon Boss Arena: Nothing
-      Ganon's Tower Puppet Ganon Boss Room Morth Platform: Grappling_Hook
+      Ganon's Tower Puppet Ganon Boss Room Morth Platform: Grappling_Hook or Hookshot # Grappling_Hook
 
 - Name: Ganon's Tower Puppet Ganon Boss Room Morth Platform
   Hint Region: Ganon's Tower
@@ -3305,7 +3327,7 @@
   Exits:
       Ganon's Tower Puppet Ganon Boss Arena: Nothing
       Ganon's Tower Puppet Ganon Boss Room Pot Platform: Nothing
-      Ganon's Tower Puppet Ganon Boss Room Highest Platform: Hookshot
+      Ganon's Tower Puppet Ganon Boss Room Highest Platform: Hookshot or Can_Morth_Hover # Hookshot
 
 - Name: Ganon's Tower Puppet Ganon Boss Room Highest Platform
   Hint Region: Ganon's Tower
