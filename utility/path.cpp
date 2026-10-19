@@ -2,6 +2,7 @@
 
 #include <version.hpp>
 #include <utility/file.hpp>
+#include <utility/platform.hpp>
 
 #ifdef QT_GUI
     #if defined(__APPLE__) || defined(__linux__)
@@ -50,6 +51,22 @@ namespace Utility {
 
     fspath get_logs_path() {
         const fspath path = get_app_save_path() / "logs/";
+
+        if (!std::filesystem::is_directory(path))
+        {
+            Utility::create_directories(path);
+        }
+
+        return path;
+    }
+
+    fspath get_current_logic_folder(fspath logic){
+        if(logic.empty()) return get_data_path() / "logic/";
+        else return get_logic_path() / logic;
+    }
+
+    fspath get_logic_path() {
+        const fspath path = get_app_save_path() / "custom_logic/";
 
         if (!std::filesystem::is_directory(path))
         {

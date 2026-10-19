@@ -9,6 +9,8 @@
 #include <utility/platform.hpp>
 #include <utility/string.hpp>
 
+#include <logic/CustomLogic.hpp>
+
 Settings::Settings() {
     resetDefaultSettings();
     resetDefaultPreferences(true);
@@ -16,6 +18,8 @@ Settings::Settings() {
 
 void Settings::resetDefaultSettings() {
     game_version = GameVersion::HD;
+
+    logic = "";
 
     progression_dungeons = ProgressionDungeons::Standard;
     progression_great_fairies = true;
@@ -159,6 +163,8 @@ uint8_t Settings::getSetting(const Option& option) const {
     switch (option) {
         case Option::GameVersion:
             return static_cast<std::underlying_type_t<GameVersion>>(game_version);
+        case Option::Logic: // Can't return this like everything else, just here as placeholder 
+            return 0;
         case Option::ProgressDungeons:
             return static_cast<std::underlying_type_t<ProgressionDungeons>>(progression_dungeons);
         case Option::ProgressGreatFairies:
@@ -368,6 +374,8 @@ void Settings::setSetting(const Option& option, const size_t& value) {
     switch (option) {
         case Option::GameVersion:
             game_version = static_cast<GameVersion>(value); return;
+        case Option::Logic: // Can't set this like everything else, just here as placeholder
+            return;
         case Option::ProgressDungeons:
             progression_dungeons = static_cast<ProgressionDungeons>(value); return;
         case Option::ProgressGreatFairies:
@@ -1186,7 +1194,7 @@ std::set<std::string> getDefaultExcludedLocations()
     };
 }
 
-const std::set<std::string>& getAllLocationsNames()
+const std::set<std::string>& getAllLocationsNames(fspath logicPath)
 {
     static std::set<std::string> locNames = {};
 
@@ -1194,7 +1202,8 @@ const std::set<std::string>& getAllLocationsNames()
     // The data folder is read-only for most builds, and it shouldn't be changing anyways
     if(locNames.empty()) {
         YAML::Node locationDataTree;
-        if(!LoadYAML(locationDataTree, Utility::get_data_path() / "logic/location_data.yaml", true)) {
+        CustomLogic::LogicError err = CustomLogic::loadLocationDataYaml(Utility::get_current_logic_folder(logicPath), locationDataTree);
+        if(err != CustomLogic::NONE && err != CustomLogic::NON_ESSENTIAL_FILE_ERROR) {
             ErrorLog::getInstance().log("Unable to load location_data.yaml");
             locNames.clear();
             return locNames;
@@ -1222,4 +1231,14 @@ bool Settings::anyEntrancesShuffled() const {
     return randomize_dungeon_entrances || randomize_boss_entrances ||
             randomize_miniboss_entrances || randomize_cave_entrances != ShuffleCaveEntrances::Disabled ||
             randomize_door_entrances || randomize_misc_entrances;
+}
+
+const std::vector<fspath> getAllCustomLogicFolders(){
+    fspath dir = Utility::get_logic_path();
+    std::vector<fspath> logics;
+    for(auto entry : std::filesystem::directory_iterator(dir)){
+        if(!entry.is_directory()) continue;
+        logics.push_back(entry.path().filename());
+    }
+    return logics;
 }
